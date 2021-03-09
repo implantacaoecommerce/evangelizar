@@ -4,200 +4,231 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#lancamentos",
+      "menu-item#acessorios",
+      "menu-item#terco-dezena",
+      "menu-item#livraria-papelaria",
+      "menu-item#vestuario",
+      "menu-item#presente-decoracao",
+      "menu-item#imagens",
+      "menu-item#cd-dvd",
+      "menu-item#outlet"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#lancamentos": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-lancamentos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/lancamentos",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Lançamentos",
+        "text": "Lançamentos"
+      }
+    }
+  },
+  "menu-item#acessorios": {
+    "props": {
+      "id": "menu-item-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#acessorios"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#acessorios": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#acessorios"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#acessorios": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#acessorios-pulseiras",
+      "menu-item#acessorios-colar",
+      "menu-item#acessorios-escapulario",
+      "menu-item#acessorios-dezenas"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#acessorios-pulseiras": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-acessorios-pulseiras",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/acessorios/pulseiras/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Pulseiras",
+        "text": "Pulseiras"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#acessorios-colar": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-acessorios-colar",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/acessorios/colar/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Colar, corrente, cordão",
+        "text": "Colar, corrente, cordão"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#acessorios-escapulario": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-acessorios-escapulario",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/acessorios/escapularios/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Escapulários",
+        "text": "Escapulários"
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#acessorios-dezenas": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-acessorios-dezenas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/acessorios/dezenas/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Dezenas para carro",
+        "text": "Dezenas para carro"
       }
     }
   },
-  "menu-item#more": {
+  "menu-item#terco-dezena": {
     "props": {
-      "id": "menu-item-custom-sale",
+      "id": "menu-item-terco-dezena",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
-  },
-  "vtex.menu@2.x:submenu#more": {
-    "props": {
-      "width": "100%"
-    },
-    "children": [
-      "flex-layout.row#menu-more"
-    ]
-  },
-  "flex-layout.row#menu-more": {
-    "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
-    ]
-  },
-  "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
-  },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
-  "vtex.menu@2.x:menu#more": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
-    ]
-  },
-  "menu-item#about-us": {
-    "props": {
-      "id": "menu-item-about-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/about-us",
-        "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "href": "/terco",
+        "noFollow": false,
+        "tagTitle": "Terço e Dezena",
+        "text": "Terço e Dezena"
       }
     }
   },
-  "menu-item#faq": {
+  "menu-item#livraria-papelaria": {
     "props": {
-      "id": "menu-item-faq",
+      "id": "menu-item-livraria-papelaria",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
+        "href": "/livraria",
+        "noFollow": false,
+        "tagTitle": "Livraria e Papelaria",
+        "text": "Livraria e Papelaria"
       }
     }
   },
-  "menu-item#contact-us": {
+  "menu-item#vestuario": {
     "props": {
-      "id": "menu-item-contact-us",
+      "id": "menu-item-vestuario",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
+        "href": "/vestuario",
+        "noFollow": false,
+        "tagTitle": "Vestuário",
+        "text": "Vestuário"
+      }
+    }
+  },
+  "menu-item#presente-decoracao": {
+    "props": {
+      "id": "menu-item-presente-decoracao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-decoracao",
+        "noFollow": false,
+        "tagTitle": "Presente e Decoração",
+        "text": "Presente e Decoração"
+      }
+    }
+  },
+  "menu-item#imagens": {
+    "props": {
+      "id": "menu-item-imagens",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/imagens",
+        "noFollow": false,
+        "tagTitle": "Imagens",
+        "text": "Imagens"
+      }
+    }
+  },
+  "menu-item#cd-dvd": {
+    "props": {
+      "id": "menu-item-cd-dvd",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cd-dvd",
+        "noFollow": false,
+        "tagTitle": "CD e DVD",
+        "text": "CD e DVD"
+      }
+    }
+  },
+  "menu-item#outlet": {
+    "props": {
+      "id": "menu-item-outlet",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/outlet",
+        "noFollow": false,
+        "tagTitle": "Outlet",
+        "text": "Outlet"
       }
     }
   }

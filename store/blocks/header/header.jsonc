@@ -8,31 +8,11 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#2-desktop",
-      "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop"
+      "sticky-layout#2-desktop"
     ]
   },
 
   "flex-layout.row#1-desktop": {
-    "children": ["telemarketing"],
-    "props": {
-      "fullWidth": true
-    }
-  },
-
-  "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
-    "props": {
-      "fullWidth": "true"
-    }
-  },
-  "notification.bar#home": {
-    "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
-    }
-  },
-  "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
       "horizontalAlign": "center",
@@ -41,21 +21,46 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
+      "flex-layout.col#site-seguro",
       "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "flex-layout.col#contato-topo"
     ]
+  },
+  "flex-layout.col#site-seguro":{
+    "children":[
+      "rich-text#site-seguro"
+    ]
+  },
+  "flex-layout.col#contato-topo":{
+    "children":[
+      "rich-text#contato-topo"
+    ]
+  },
+  "rich-text#site-seguro": {
+    "props": {
+      "blockClass": "text-top",
+      "text": "**Site 100% seguro**"
+    }
+  },
+  "rich-text#contato-topo": {
+    "props": {
+      "blockClass": "text-top",
+      "text": "**DÚVIDAS?** 41 3221-6050 OU PELO FALE CONOSCO"
+    }
   },
   "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
     }
   },
-  "sticky-layout#4-desktop": {
+  "sticky-layout#2-desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": [
+      "flex-layout.row#4-desktop",
+      "flex-layout.row#menu"
+    ]
   },
   "flex-layout.row#4-desktop": {
     "props": {
@@ -68,10 +73,10 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
+      "flex-layout.col#spacer",
+      "rich-text#doacao",
       "login",
       "minicart.v2"
     ]
@@ -81,6 +86,19 @@
       "verticalAlign": "middle"
     },
     "children": ["logo#desktop"]
+  },
+  "flex-layout.row#menu":{
+    "props": {
+      "blockClass": "main-menu",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children":[
+      "flex-layout.col#category-menu"
+    ]
   },
   "flex-layout.col#category-menu": {
     "props": {
@@ -92,8 +110,14 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180"
+      "url": "/arquivos/logo.svg",
+      "width": "124"
+    }
+  },
+  "rich-text#doacao":{
+    "props": {
+      "text": "**FAÇA SUA DOAÇÃO**",
+      "blockClass": "doacao"
     }
   },
   "header-layout.mobile": {
@@ -123,9 +147,7 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "flex-layout.col#category-menu"
     ],
     "props": {
       "orientation": "vertical"
@@ -136,7 +158,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "/arquivos/logo.svg",
       "width": "70"
     }
   }

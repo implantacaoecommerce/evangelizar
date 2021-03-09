@@ -2,7 +2,14 @@
 .flexRowContent--main-header {
   padding: 0 0.5rem;
 }
-
+.flexRow--main-menu{
+  background:#C40E29;
+  color:#fff;
+}
+.flexRow--main-menu :global(.vtex-menu-2-x-styledLinkContent) {
+  color: #fff;
+  font-size: 14px;
+}
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
@@ -17,12 +24,12 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
-  color: #fff;
+  background-color: #EFF0F0;
+  color: #333;
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
 .flexRowContent--main-header-mobile {
@@ -32,7 +39,7 @@
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: #ffffff;
+  color: #333;
   font-size: 14px;
 }
 

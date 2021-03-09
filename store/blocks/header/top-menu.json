@@ -1,8 +1,7 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#shop"
     ]
   },
   "menu-item#shop": {
@@ -15,8 +14,8 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "Site 100% Seguro",
+        "text": "**Site 100% Seguro**"
       }
     }
   },
@@ -33,10 +32,10 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "#",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "DÚVIDAS 41 3221-6050 OU PELO FALE CONOSCO",
+        "text": "**DÚVIDAS** 41 3221-6050 OU PELO FALE CONOSCO"
       }
     }
   }
