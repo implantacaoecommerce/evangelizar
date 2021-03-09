@@ -9,6 +9,8 @@
 .flexRow--main-menu :global(.vtex-menu-2-x-styledLinkContent) {
   color: #fff;
   font-size: 14px;
+  font-weight:bold;
+  text-transform:uppercase;
 }
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,

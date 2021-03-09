@@ -3,11 +3,19 @@
   text-align: center;
   justify-content: center;
 }
-.paragraph--text-top{
+.paragraph--text-top,
+.paragraph--doacao{
   margin:0;
   text-transform:uppercase;
 }
-
+.wrapper--doacao{
+  background:#F7A504;
+  color:#fff;
+  width:130px;
+  border-radius:10px;
+  padding:10px;
+  text-align:center;
+}
 .container--shelfTitle {
   color: #727273;
   justify-content: center;

@@ -27,6 +27,10 @@
         "noFollow": false,
         "tagTitle": "Lançamentos",
         "text": "Lançamentos"
+      },
+      "iconProps": {
+        "id": "mpa-cog",
+        "iconPosition":"right"
       }
     }
   },
