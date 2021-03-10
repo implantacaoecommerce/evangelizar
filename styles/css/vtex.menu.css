@@ -4,8 +4,13 @@
 .menuContainer--menu-principal .menuItem{
     list-style:disc;
 }
-.menuContainer--menu-principal .menuItem--noicon{
+.menuContainer--menu-principal .menuItem--noicon,
+.menuContainer--menu-principal .submenu .menuItem{
     list-style:none;
+}
+.menuContainer--menu-principal .submenu .styledLinkContainer{
+    margin:0;
+    padding:0;
 }
 .menuContainer--menu-principal .styledLinkContainer{
     margin:0 1rem 0 0;

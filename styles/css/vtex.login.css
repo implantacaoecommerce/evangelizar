@@ -1,0 +1,43 @@
+.label{
+    text-transform:capitalize;
+    color: #727273;
+    padding:0;
+    font-size:0;
+}
+.label::after{
+    content: "Minha conta";
+    display: inline-block;
+    vertical-align:middle;
+    font-size:15px;
+    font-weight:bold;
+    color:#333;
+}
+.container :global(.vtex-button__label){
+    padding:0 !important;
+    margin:0 0 0 5px;
+}
+.profile::before, .label::before, .buttonLink::before{
+    content: "";
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url('/arquivos/person.svg');
+}
+@media only screen and (max-width: 1023px) {
+    .label{
+        font-size: 0;
+        display: block;
+    }
+} 
+@media only screen and (max-width: 640px){
+    .label::before{
+        display: none;
+    }
+}
+@media only screen and (min-width:1026px) and (max-width:1294px){
+    .label::before{
+        display: none;
+    }
+}
