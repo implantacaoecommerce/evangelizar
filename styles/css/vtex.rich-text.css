@@ -3,18 +3,28 @@
   text-align: center;
   justify-content: center;
 }
+.paragraph--text-top{
+  font-size:12px;
+  padding:.3rem;
+}
 .paragraph--text-top,
 .paragraph--doacao{
   margin:0;
   text-transform:uppercase;
 }
+.paragraph--doacao{
+  font-size:14px;
+  line-height:1.2;
+}
+.link--text-top{color:#333;}
 .wrapper--doacao{
   background:#F7A504;
   color:#fff;
   width:130px;
   border-radius:10px;
-  padding:10px;
+  padding:9px;
   text-align:center;
+  margin-top:18px;
 }
 .container--shelfTitle {
   color: #727273;

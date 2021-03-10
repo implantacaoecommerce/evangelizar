@@ -1,6 +1,7 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
+      "blockClass": "menu-principal",
       "experimentalOptimizeRendering": true
     },
     "children": [
@@ -17,6 +18,7 @@
   },
   "menu-item#lancamentos": {
     "props": {
+      "blockClass": "noicon",
       "id": "menu-item-lancamentos",
       "type": "custom",
       "iconId": null,
@@ -27,10 +29,6 @@
         "noFollow": false,
         "tagTitle": "Lançamentos",
         "text": "Lançamentos"
-      },
-      "iconProps": {
-        "id": "mpa-cog",
-        "iconPosition":"right"
       }
     }
   },

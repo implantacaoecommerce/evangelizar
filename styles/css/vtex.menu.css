@@ -1,4 +1,13 @@
-
 .submenu .styledLinkContent{
     color: #333;
+}
+.menuContainer--menu-principal .menuItem{
+    list-style:disc;
+}
+.menuContainer--menu-principal .menuItem--noicon{
+    list-style:none;
+}
+.menuContainer--menu-principal .styledLinkContainer{
+    margin:0 1rem 0 0;
+    padding:1rem 1rem 1rem 0;
 }

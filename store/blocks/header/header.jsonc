@@ -45,7 +45,7 @@
   "rich-text#contato-topo": {
     "props": {
       "blockClass": "text-top",
-      "text": "**DÚVIDAS?** 41 3221-6050 OU PELO FALE CONOSCO"
+      "text": "**DÚVIDAS?** [41 3221-6050](https://www.example.com) OU PELO [FALE CONOSCO](https://www.example.com)"
     }
   },
   "flex-layout.col#spacer": {
@@ -73,9 +73,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
       "search-bar",
-      "flex-layout.col#spacer",
       "rich-text#doacao",
       "login",
       "minicart.v2"
@@ -86,6 +84,17 @@
       "verticalAlign": "middle"
     },
     "children": ["logo#desktop"]
+  },
+  "search-bar":{
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "placeholder": "O que você procura?",
+      "inputType": "search"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
   },
   "flex-layout.row#menu":{
     "props": {

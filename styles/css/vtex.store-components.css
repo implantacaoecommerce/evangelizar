@@ -1,11 +1,17 @@
 @media only screen and (min-width: 640px){
   .searchBarContainer{
-    margin: 15px;
+    margin: 18px 30px;
     padding: 0;
-    width: 420px;
+    width: 470px;
   }
 }
-
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+  border-radius:5px;
+}
+.searchBarContainer :global(.vtex-input-prefix__group){
+  border:1px solid #C40E29;
+  height:50px;
+}
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
