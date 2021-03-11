@@ -63,11 +63,35 @@
       "orientation": "vertical"
     },
     "children": [
+      "flex-layout.row#acessorios"
+    ]
+  },
+  "flex-layout.row#acessorios":{
+    "children": [
+      "flex-layout.col#acessorios1",
+      "flex-layout.col#acessorios2"
+    ]
+  },
+  "flex-layout.col#acessorios1":{
+    "children": [
+      "rich-text#acessorios",
       "menu-item#acessorios-pulseiras",
       "menu-item#acessorios-colar",
       "menu-item#acessorios-escapulario",
-      "menu-item#acessorios-dezenas"
+      "menu-item#acessorios-dezenas",
+      "menu-item#ver-todos-acessorios"
     ]
+  },
+  "flex-layout.col#acessorios2":{
+    "children": [
+      "image#acessorios"
+    ]
+  },
+  "rich-text#acessorios": {
+    "props": {
+      "text": "ACESSÓRIOS",
+      "blockClass": "title-menu"
+    }
   },
   "menu-item#acessorios-pulseiras": {
     "props": {
@@ -127,6 +151,26 @@
         "tagTitle": "Dezenas para carro",
         "text": "Dezenas para carro"
       }
+    }
+  },
+  "menu-item#ver-todos-acessorios":{
+    "props": {
+      "id": "menu-item-ver-todos-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios",
+        "noFollow": false,
+        "tagTitle": "Ver todos os Acessórios",
+        "text": "Ver todos os Acessórios"
+      }
+    }
+  },
+  "image#acessorios":{
+    "props": {
+      "src": "/arquivos/banner-menu.png"
     }
   },
   "menu-item#terco-dezena": {

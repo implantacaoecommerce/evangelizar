@@ -1,7 +1,13 @@
 .container--layout-option {
   margin-left: 0.3em;
 }
-
+.paragraph--title-menu{
+  margin:0;
+  font-size:15px;
+  font-weight:bold;
+  text-transform:uppercase;
+  color:#213C84;
+}
 .paragraph--layout-option {
   margin: 0;
 }

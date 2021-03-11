@@ -26,7 +26,7 @@
   },
   "rich-text#deal1": {
     "props": {
-      "text": "**ENTREGA NACIONAL** ENTREGAMOS PARA TODO O BRASIL",
+      "text": "**ENTREGA NACIONAL** ENTREGAMOS PARA TODO *O BRASIL*",
       "blockClass": "deals"
     }
   },
@@ -45,7 +45,7 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "**PARCELAMENTO** PARCELE SUAS COMPRAS EM ATÉ 6X",
+      "text": "**PARCELAMENTO** PARCELE SUAS COMPRAS *EM ATÉ 6X*",
       "blockClass": "deals"
     }
   },
@@ -64,7 +64,7 @@
   },
   "rich-text#deal3": {
     "props": {
-      "text": "**PRODUTOS ORIGINAIS** PRODUTOS ORIGINAIS DE JESUS DAS SANTAS CHAGAS",
+      "text": "**PRODUTOS ORIGINAIS** PRODUTOS ORIGINAIS DE JESUS *DAS SANTAS CHAGAS*",
       "blockClass": "deals"
     }
   },
@@ -86,7 +86,7 @@
   },
   "rich-text#deal4": {
     "props": {
-      "text": "**SITE 100% SEGURO** FAÇA SUAS COMPRAS COM TRANQUILIDADE",
+      "text": "**SITE 100% SEGURO** FAÇA SUAS COMPRAS *COM TRANQUILIDADE*",
       "blockClass": "deals"
     }
   }

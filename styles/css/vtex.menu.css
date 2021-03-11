@@ -1,5 +1,7 @@
 .submenu .styledLinkContent{
     color: #333;
+    font-weight:normal;
+    font-size:12px;
 }
 .menuContainer--menu-principal .menuItem{
     list-style:disc;
@@ -15,4 +17,7 @@
 .menuContainer--menu-principal .styledLinkContainer{
     margin:0 1rem 0 0;
     padding:1rem 1rem 1rem 0;
+}
+.submenuWrapper{
+    padding:10px;
 }
