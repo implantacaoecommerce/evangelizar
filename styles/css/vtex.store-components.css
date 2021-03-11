@@ -19,7 +19,9 @@
   font-size: 12px;
   text-decoration: underline;
 }
-
+.imageElement--deals{
+  margin-left:40px;
+}
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;

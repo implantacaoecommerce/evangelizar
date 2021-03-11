@@ -19,13 +19,14 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
+      "src": "/arquivos/truck.svg",
+      "maxHeight": "30px",
+      "blockClass": "deals"
     }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "**ENTREGA NACIONAL** ENTREGAMOS PARA TODO O BRASIL",
       "blockClass": "deals"
     }
   },
@@ -37,13 +38,14 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "src": "/arquivos/credit.svg",
+      "maxHeight": "27px",
+      "blockClass": "deals"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "**PARCELAMENTO** PARCELE SUAS COMPRAS EM ATÉ 6X",
       "blockClass": "deals"
     }
   },
@@ -55,13 +57,14 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-      "maxHeight": "24px"
+      "src": "/arquivos/seal.svg",
+      "maxHeight": "34px",
+      "blockClass": "deals"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "**PRODUTOS ORIGINAIS** PRODUTOS ORIGINAIS DE JESUS DAS SANTAS CHAGAS",
       "blockClass": "deals"
     }
   },
@@ -73,13 +76,14 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "/arquivos/lock.svg",
+      "maxHeight": "30px",
+      "blockClass": "deals"
     }
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "**SITE 100% SEGURO** FAÇA SUAS COMPRAS COM TRANQUILIDADE",
       "blockClass": "deals"
     }
   }

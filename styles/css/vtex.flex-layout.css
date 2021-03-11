@@ -47,19 +47,29 @@
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
-  font-size: 14px;
+  font-size: 16px;
+  color:#213C84;
 }
 .flexRow--deals {
-  background-color: #a7afbd;
+  background-color: #EFF0F0;
   padding: 14px 0px;
+}
+.flexRow--deals .flexColChild{
+  display:inline-block;
+  vertical-align:middle;
+  max-width:60%;
+  height:auto !important;
+  margin:0 5px;
 }
 
 .flexRow--deals .stretchChildrenWidth {
-  align-items: center;
+  align-items: left;
 }
 
 .flexRow--deals .flexCol {
-  align-items: center;
+  align-items: left;
+  display:block;
+  border-right:1px solid #BCBCBC;
 }
 
 .flexCol--filterCol {

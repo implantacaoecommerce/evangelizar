@@ -4,11 +4,14 @@
       "list-context.image-list#demo",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "rich-text#shelf-title1",
+      "flex-layout.row#shelf1",
+      "rich-text#shelf-title2",
+      "flex-layout.row#shelf2",
+      "rich-text#shelf-title3",
+      "flex-layout.row#shelf3",
+      "rich-text#shelf-title4",
+      "flex-layout.row#shelf4",
       "newsletter"
     ]
   },
@@ -16,7 +19,7 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
+      "height": 395,
       "images": [
         {
           "image": "/arquivos/banner-principal.png",
@@ -42,13 +45,13 @@
     }
   },
 
-  "rich-text#shelf-title": {
+  "rich-text#shelf-title1": {
     "props": {
-      "text": "## Summer",
+      "text": "## PRODUTOS ORIGINAIS",
       "blockClass": "shelfTitle"
     }
   },
-  "flex-layout.row#shelf": {
+  "flex-layout.row#shelf1": {
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
@@ -61,7 +64,7 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 3,
         "phone": 1
       },
@@ -70,32 +73,31 @@
       "blockClass": "shelf"
     }
   },
-
-  "info-card#home": {
+  "rich-text#shelf-title2": {
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "text": "## PRODUTOS ORIGINAIS",
+      "blockClass": "shelfTitle"
     }
   },
-
-  "rich-text#question": {
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "rich-text#shelf-title3": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "text": "## PRODUTOS ORIGINAIS",
+      "blockClass": "shelfTitle"
     }
   },
-
-  "rich-text#link": {
+  "flex-layout.row#shelf3": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "rich-text#shelf-title4": {
     "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "text": "## PRODUTOS ORIGINAIS",
+      "blockClass": "shelfTitle"
     }
+  },
+  "flex-layout.row#shelf4": {
+    "children": ["list-context.product-list#demo1"]
   }
 }
