@@ -79,12 +79,7 @@
       "minicart.v2"
     ]
   },
-  "minicart.v2": {
-    "props": {
-      "MinicartIcon": "icon-cart#minicart-icon"
-    },
-    "children": ["minicart-base-content"]
-  },
+  
   "icon-cart#minicart-icon": {
     "props": {
       "size": 27

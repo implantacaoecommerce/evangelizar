@@ -1,5 +1,5 @@
 .listPrice {
-  color: #727273;
+  color: #333;
   margin-bottom: .25rem;
   font-size: 1rem;
 }
@@ -15,7 +15,7 @@
 }
 
 .installments {
-  color: #727273;
+  color: #333;
   margin-bottom: 1rem;
 }
 

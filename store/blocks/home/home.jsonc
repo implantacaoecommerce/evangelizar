@@ -10,9 +10,10 @@
       "flex-layout.row#shelf2",
       "rich-text#shelf-title3",
       "flex-layout.row#shelf3",
+      "flex-layout.row#banners",
       "rich-text#shelf-title4",
       "flex-layout.row#shelf4",
-      "newsletter"
+      "newsletter-form"
     ]
   },
 
@@ -75,29 +76,76 @@
   },
   "rich-text#shelf-title2": {
     "props": {
-      "text": "## PRODUTOS ORIGINAIS",
+      "text": "## TERÇOS",
       "blockClass": "shelfTitle"
     }
   },
   "flex-layout.row#shelf2": {
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "flex-layout.col#shelf2-1",
+      "flex-layout.col#shelf2-2"
+    ]
+  },
+  "flex-layout.col#shelf2-1":{
+    "children": [
+      "image#banners3"
+    ]
+  },
+  "flex-layout.col#shelf2-2":{
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "image#banners3": {
+    "props": {
+      "src": "/arquivos/banner3.svg"
+    }
   },
   "rich-text#shelf-title3": {
     "props": {
-      "text": "## PRODUTOS ORIGINAIS",
+      "text": "## PE. REGINALDO MANZOTTI",
       "blockClass": "shelfTitle"
     }
   },
   "flex-layout.row#shelf3": {
     "children": ["list-context.product-list#demo1"]
   },
+  "flex-layout.row#banners":{
+    "children": [
+      "flex-layout.col#banners1",
+      "flex-layout.col#banners2"
+    ]
+  },
+  "flex-layout.col#banners1":{
+    "children": ["image#banners1"]
+  },
+  "image#banners1": {
+    "props": {
+      "src": "/arquivos/banner1.svg"
+    }
+  },
+  "flex-layout.col#banners2":{
+    "children": ["image#banners2"]
+  },
+  "image#banners2": {
+    "props": {
+      "src": "/arquivos/banner2.png"
+    }
+  },
   "rich-text#shelf-title4": {
     "props": {
-      "text": "## PRODUTOS ORIGINAIS",
+      "text": "## MAIS VENDIDOS",
       "blockClass": "shelfTitle"
     }
   },
   "flex-layout.row#shelf4": {
     "children": ["list-context.product-list#demo1"]
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
   }
 }

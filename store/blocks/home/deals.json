@@ -72,7 +72,10 @@
     "children": [
       "image#deal4",
       "rich-text#deal4"
-    ]
+    ],
+    "props": {
+      "blockClass": "noborder"
+    }
   },
   "image#deal4": {
     "props": {

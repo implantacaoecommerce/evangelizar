@@ -71,6 +71,9 @@
   display:block;
   border-right:1px solid #BCBCBC;
 }
+.flexRow--deals .flexCol--noborder{
+  border-right:0;
+}
 
 .flexCol--filterCol {
   max-width: 500px;
