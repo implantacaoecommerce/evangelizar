@@ -6,6 +6,7 @@
       "flex-layout.col#productRating",
       "product-summary-space",
       "product-list-price#summary",
+      "product-selling-price",
       "product-installments#summary",
       "add-to-cart-button"
     ]

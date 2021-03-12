@@ -16,7 +16,10 @@
     display: none;
   }
 }
-
+.element :global(.vtex-button){
+  font-weight:bold;
+  padding:20px 0 23px;
+}
 .nameContainer {
   justify-content: center;
   padding-top: 0;
