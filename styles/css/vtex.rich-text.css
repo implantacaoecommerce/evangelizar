@@ -35,6 +35,10 @@
   display:block;
   font-size:16px;
 }
+.italic--deals{
+  display:block;
+  font-style:normal;
+}
 .image--text-top{
   display:inline-block;
   vertical-align:middle;

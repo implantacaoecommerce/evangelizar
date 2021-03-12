@@ -106,7 +106,9 @@
   height: 66% !important;
   overflow-x: hidden;
 }
-
+.flexCol--productRating{
+  margin-bottom:0 !important;
+}
 .flexColChild--quickviewDetails:last-child {
   height: 34% !important;
 }

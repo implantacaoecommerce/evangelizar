@@ -22,6 +22,12 @@
 
 .slide--shelf {
   margin-bottom: 25px;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: .4rem;
+  padding-right: .4rem;
+}
+.slideChildrenContainer--shelf{
+  border:1px solid #E8E8E8;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius:5px;
 }
