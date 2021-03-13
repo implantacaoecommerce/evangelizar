@@ -93,12 +93,52 @@
   },
   "flex-layout.col#shelf2-2":{
     "children": [
-      "list-context.product-list#demo1"
+      "flex-layout.row#shelf2-1",
+      "flex-layout.row#shelf2-2"
+    ]
+  },
+  "flex-layout.row#shelf2-1":{
+    "children": [
+      "flex-layout.col#shelf2-1-1"
+    ]
+  },
+  "flex-layout.row#shelf2-2":{
+    "children": [
+      "flex-layout.col#shelf2-2-1"
+    ]
+  },
+  "flex-layout.col#shelf2-1-1":{
+    "children": [
+      "list-context.product-list#demo2"
+    ]
+  },
+  "flex-layout.col#shelf2-2-1":{
+    "children": [
+      "list-context.product-list#demo2"
     ]
   },
   "image#banners3": {
     "props": {
       "src": "/arquivos/banner3.svg"
+    }
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
     }
   },
   "rich-text#shelf-title3": {
@@ -111,6 +151,9 @@
     "children": ["list-context.product-list#demo1"]
   },
   "flex-layout.row#banners":{
+    "props":{
+      "blockClass":"banners-home"
+    },
     "children": [
       "flex-layout.col#banners1",
       "flex-layout.col#banners2"
@@ -143,9 +186,31 @@
   },
   "newsletter-form": {
     "children": [
-      "newsletter-input-email",
+      "rich-text#label-news",
       "newsletter-input-name",
+      "newsletter-input-email",
       "newsletter-submit"
     ]
+  },
+  "rich-text#label-news":{
+    "props": {
+      "text": "**ASSINE NOSSA NEWSLETTER** E receba nossas ofertas e novidades no seu e-mail!",
+      "blockClass":"newsletter"
+    }
+  },
+  "newsletter-input-name":{
+    "props":{
+      "placeholderText": "Seu nome"
+    }
+  },
+  "newsletter-input-email":{
+    "props":{
+      "placeholderText": "Seu e-mail"
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      "submitButtonLabel": "CADASTRAR"
+    }
   }
 }

@@ -112,6 +112,9 @@
 .flexColChild--quickviewDetails:last-child {
   height: 34% !important;
 }
+.flexRowContent--banners-home{
+  text-align:center;
+}
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
