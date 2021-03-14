@@ -1,4 +1,24 @@
 .newsletterForm{
     background:#C40E29;
     display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.nameInputContainer,
+.emailInputContainer,
+.formSubmitContainer{
+    margin:0 10px;
+}
+.nameInputContainer :global(.vtex-input-prefix__group),
+.emailInputContainer :global(.vtex-input-prefix__group){
+    border:0;
+    width:270px;
+}
+.formSubmitContainer :global(.vtex-button){
+    background:#213C84;
+    border:0;
+    font-size:14px;
+    font-weight:bold;
+    border-radius:5px;
+    padding:0 26px;
 }

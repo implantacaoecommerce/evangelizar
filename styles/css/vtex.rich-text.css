@@ -109,8 +109,18 @@
 }
 .container--newsletter{
   color:#fff;
+  font-size:15px;
+  margin-right:40px;
 }
-
+.strong--newsletter{
+  display:block;
+  font-size:18px;
+}
+.paragraph--footer{
+  text-align:center;
+  color:#9F9F9F;
+  font-size:12px;
+}
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

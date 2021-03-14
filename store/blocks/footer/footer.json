@@ -5,26 +5,106 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-2-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "flex-layout.col#footer-1-desktop",
+      "flex-layout.col#footer-2-desktop"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
-      "paddingBottom": 3
+      "paddingBottom": 6
     }
   },
-
+  "flex-layout.col#footer-1-desktop":{
+    "props":{
+      "blockClass":"container-img-footer"
+    },
+    "children": ["image#img-footer"]
+  },
+  "image#img-footer": {
+    "props": {
+      "src": "/arquivos/img-footer.png",
+      "blockClass": "img-footer"
+    }
+  },
+  "flex-layout.col#footer-2-desktop":{
+    "children": [
+      "flex-layout.row#footer-2-1-desktop",
+      "flex-layout.row#footer-2-2-desktop"
+    ]
+  },
+  "flex-layout.row#footer-2-1-desktop":{
+    "children": [
+      "flex-layout.col#footer-2-1-1-desktop",
+      "flex-layout.col#footer-2-1-2-desktop",
+      "flex-layout.col#footer-2-1-3-desktop"
+    ]
+  },
+  "flex-layout.col#footer-2-1-1-desktop":{
+    "children": [
+      "rich-text#title-footer-1",
+      "rich-text#content-footer-1",
+      "social-networks"
+    ]
+  },
+  "rich-text#title-footer-1":{
+    "props": {
+      "text": "### FALE CONOSCO"
+    }
+  },
+  "rich-text#content-footer-1":{
+    "props": {
+      "text": "(41) 3221-6050"
+    }
+  },
+  "flex-layout.col#footer-2-1-2-desktop":{
+    "children": [
+      "rich-text#title-footer-2",
+      "vtex.menu@2.x:menu#menu-footer-1"
+    ]
+  },
+  "rich-text#title-footer-2":{
+    "props": {
+      "text": "### INSTITUCIONAL"
+    }
+  },
+  "flex-layout.col#footer-2-1-3-desktop":{
+    "children": [
+      "rich-text#title-footer-3",
+      "vtex.menu@2.x:menu#menu-footer-2"
+    ]
+  },
+  "rich-text#title-footer-3":{
+    "props": {
+      "text": "### AJUDA"
+    }
+  },
+  "flex-layout.row#footer-2-2-desktop":{
+    "children": [
+      "flex-layout.col#footer-2-2-1-desktop",
+      "flex-layout.col#footer-2-2-2-desktop"
+    ]
+  },
+  "flex-layout.col#footer-2-2-1-desktop":{
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "flex-layout.col#footer-2-2-2-desktop":{
+    "children": [
+      "rich-text#title-footer-5"
+    ]
+  },
+  "rich-text#title-footer-5":{
+    "props": {
+      "text": "### SELOS E SEGURANÇA"
+    }
+  },
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -37,21 +117,10 @@
           "url": "https://www.instagram.com/vtextruecloud/"
         },
         {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
           "name": "Youtube",
           "url": "https://www.youtube.com/user/VTEXTV"
         }
       ]
-    }
-  },
-
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
-    "props": {
-      "blockClass": "payment-methods"
     }
   },
   "accepted-payment-methods": {
@@ -60,7 +129,7 @@
     }
   },
 
-  "flex-layout.row#footer-3-desktop": {
+  "flex-layout.row#footer-2-desktop": {
     "children": ["rich-text#footer"],
     "props": {
       "blockClass": "credits"
@@ -68,49 +137,15 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "Fotos meramente ilustrativas | Ofertas válidas enquanto durarem nossos estoques | Vendas sujeitas a análise e confirmação de dados. Os preços, promoções e condições de pagamento são válidos exclusivamente para compras efetuadas em nossa loja virtual. Todos os produtos estão sujeitos a disponibilidade de estoque - Evangelizar - CNPJ: 00.000.000/0001-05 Copyright - 2020",
       "blockClass": "footer"
     }
   },
 
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "vtex.menu@2.x:menu#menu-footer-1",
+      "vtex.menu@2.x:menu#menu-footer-2"
     ]
-  },
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4
-    }
-  },
-  "flex-layout.col#footer-1-mobile": {
-    "children": [
-      "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
-    ],
-    "props": {
-      "blockClass": "payment-methods",
-      "paddingTop": 4,
-      "paddingBottom": 4,
-      "rowGap": 4
-    }
-  },
-  "flex-layout.row#1-footer-mobile": {
-    "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
-    },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
-  },
-  "rich-text#footer-mobile": {
-    "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
-    }
   }
 }

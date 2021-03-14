@@ -87,6 +87,9 @@
     ]
   },
   "flex-layout.col#shelf2-1":{
+    "props":{
+      "blockClass": "img-banner-3"
+    },
     "children": [
       "image#banners3"
     ]

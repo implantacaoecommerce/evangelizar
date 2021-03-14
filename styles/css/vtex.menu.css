@@ -18,6 +18,9 @@
     margin:0 1rem 0 0;
     padding:1rem 1rem 1rem 0;
 }
-.submenuWrapper{
+.menuContainer--menu-principal .submenuWrapper{
     padding:10px;
+    width:300px;
+    border:0;
 }
+.menuContainer--menu-principal .submenuWrapper .menuContainerNav{width:100%;}

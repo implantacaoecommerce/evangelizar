@@ -115,7 +115,13 @@
 .flexRowContent--banners-home{
   text-align:center;
 }
-
+.flexCol--img-banner-3{
+  align-items:flex-end;
+}
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+.flexRow--credits{
+  background:#EFF0F0;
+}
+.flexCol--container-img-footer{position: relative;}
