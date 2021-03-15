@@ -125,3 +125,15 @@
   background:#EFF0F0;
 }
 .flexCol--container-img-footer{position: relative;}
+.flexColChild--menu-footer .flexRowContent{
+  align-items:flex-start;
+}
+.flexRowContent--menu-row .stretchChildrenWidth:first-child{
+  width:30% !important;
+}
+.flexRowContent--menu-row .stretchChildrenWidth:last-child{
+  width:70% !important;
+}
+.flexRowContent--menu-row .stretchChildrenWidth .stretchChildrenWidth{
+  width:30% !important;
+}

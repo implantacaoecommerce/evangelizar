@@ -1,6 +1,7 @@
 {
   "vtex.menu@2.x:menu#menu-footer-1": {
     "props": {
+      "blockClass": "menu-footer",
       "orientation": "vertical"
     },
     "children": [
@@ -73,6 +74,7 @@
 
   "vtex.menu@2.x:menu#menu-footer-2": {
     "props": {
+      "blockClass": "menu-footer",
       "orientation": "vertical"
     },
     "children": [

@@ -24,3 +24,9 @@
     border:0;
 }
 .menuContainer--menu-principal .submenuWrapper .menuContainerNav{width:100%;}
+.menuContainer--menu-footer .styledLinkContainer{margin:0;}
+.menuContainer--menu-footer .styledLinkContent{
+    color:#333;
+    font-size:14px;
+}
+.menuContainer--menu-footer{margin-bottom:60px}
