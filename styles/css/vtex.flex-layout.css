@@ -148,3 +148,6 @@
   width:auto !important;
   margin-right:30px;
 }
+.flexRow--menu-row{
+  background:transparent radial-gradient(closest-side at 21% 43%, #EFF0F0 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+}
