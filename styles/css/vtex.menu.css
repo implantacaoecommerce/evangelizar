@@ -2,6 +2,7 @@
     color: #333;
     font-weight:normal;
     font-size:12px;
+    margin:5px 0;
 }
 .menuContainer--menu-principal .menuItem{
     list-style:disc;
@@ -22,6 +23,10 @@
     padding:10px;
     width:300px;
     border:0;
+    margin:0;
+}
+.styledLinkContent--menu-ver-todos{
+    font-weight:bold;
 }
 .menuContainer--menu-principal .submenuWrapper .menuContainerNav{width:100%;}
 .menuContainer--menu-footer .styledLinkContainer{margin:0;}
@@ -29,4 +34,4 @@
     color:#333;
     font-size:14px;
 }
-.menuContainer--menu-footer{margin-bottom:60px}
+.menuContainer--menu-footer{margin-bottom:80px}

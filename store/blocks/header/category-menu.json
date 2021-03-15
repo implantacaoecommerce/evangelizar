@@ -155,6 +155,7 @@
   },
   "menu-item#ver-todos-acessorios":{
     "props": {
+      "blockClass":"menu-ver-todos",
       "id": "menu-item-ver-todos-acessorios",
       "type": "custom",
       "iconId": null,

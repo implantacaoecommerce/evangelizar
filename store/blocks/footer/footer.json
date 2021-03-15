@@ -67,6 +67,9 @@
     }
   },
   "flex-layout.row#social-networks":{
+    "props":{
+      "blockClass":"social-networks"
+    },
     "children": [
       "rich-text#facebook",
       "rich-text#instagram",
@@ -113,6 +116,9 @@
     }
   },
   "flex-layout.row#footer-2-2-desktop":{
+    "props":{
+      "blockClass":"baserow-footer"
+    },
     "children": [
       "flex-layout.col#footer-2-2-1-desktop",
       "flex-layout.col#footer-2-2-2-desktop"
@@ -122,10 +128,7 @@
     "children": [
       "rich-text#title-footer-4",
       "rich-text#accepted-payment-methods"
-    ],
-    "props": {
-      "blockClass": "payment-methods"
-    }
+    ]
   },
   "rich-text#title-footer-4":{
     "props": {
@@ -135,7 +138,8 @@
   },
   "flex-layout.col#footer-2-2-2-desktop":{
     "children": [
-      "rich-text#title-footer-5"
+      "rich-text#title-footer-5",
+      "flex-layout.row#seals"
     ]
   },
   "rich-text#title-footer-5":{
@@ -144,9 +148,25 @@
       "text": "### SELOS E SEGURANÇA"
     }
   },
-  
+  "flex-layout.row#seals":{
+    "children": [
+      "rich-text#google",
+      "rich-text#jobscommerce"
+    ]
+  },
+  "rich-text#google":{
+    "props": {
+      "text": "[![Google](/arquivos/google.png)](http://www.google.com.br)"
+    }
+  },
+  "rich-text#jobscommerce":{
+    "props": {
+      "text": "[![Jobscommerce](/arquivos/jobscommerce.png)](https://jobspace.com.br/commerce/)"
+    }
+  },
   "rich-text#accepted-payment-methods": {
     "props": {
+      "blockClass": "payment-methods",
       "text": "![Bandeiras](/arquivos/bandeiras.png)"
     }
   },

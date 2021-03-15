@@ -137,3 +137,14 @@
 .flexRowContent--menu-row .stretchChildrenWidth .stretchChildrenWidth{
   width:30% !important;
 }
+.flexRowContent--menu-row .stretchChildrenWidth .flexRowContent--social-networks .stretchChildrenWidth{
+  width:auto !important;
+  margin-right:10px;
+}
+.flexRowContent--menu-row .stretchChildrenWidth .flexRowContent--baserow-footer .stretchChildrenWidth{
+  width:50% !important;
+}
+.flexRowContent--menu-row .stretchChildrenWidth .flexRowContent--baserow-footer .stretchChildrenWidth .stretchChildrenWidth{
+  width:auto !important;
+  margin-right:30px;
+}

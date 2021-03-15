@@ -137,6 +137,11 @@
   display:block;
   font-style:normal;
 }
+.paragraph--payment-methods{margin:0 0 20px;}
+.paragraph--newsletter{
+  margin:25px 0;
+}
+.paragraph--title-menu{margin:0 0 10px;}
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
