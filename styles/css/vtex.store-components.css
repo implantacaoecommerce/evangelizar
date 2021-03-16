@@ -127,7 +127,18 @@
 }
 
 .productNameContainer {
-  color: #3f3f40;
+  color: #213C84;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
+  text-transform:uppercase;
+}
+.productDescriptionTitle{
+  color:#213C84;
+  font-size:25px;
+  font-weight:bold;
+  border-bottom:1px solid #E8E8E8;
+  text-align:center;
+  text-transform:uppercase;
+  padding-bottom:5px;
+  margin:20px 0 10px;
 }

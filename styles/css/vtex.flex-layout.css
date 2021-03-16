@@ -82,11 +82,21 @@
 }
 .flexRow--title-search{
   border-bottom:1px solid #E8E8E8;
+  margin-bottom:20px;
 }
 .flexCol--productCountCol {
   align-items: flex-start;
 }
-
+.flexRowContent--bt-comprar{
+  margin:0 0 20px;
+  width:285px;
+}
+.flexRowContent--bt-comprar :global(.vtex-button){
+  padding:11px 0 8px;
+  font-size:27px;
+  font-weight:bold;
+  border-radius:10px;
+}
 .flexCol--orderByCol {
   align-items: flex-end;
 }
@@ -155,3 +165,4 @@
   background:transparent radial-gradient(closest-side at 21% 43%, #EFF0F0 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
 }
 .flexRowContent--main-menu .flexRowContent{align-items:flex-start;}
+.flexRow--orderByAndSwitcher{padding-right:0;}

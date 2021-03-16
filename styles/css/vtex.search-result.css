@@ -18,7 +18,10 @@
   background-color: #3F3F40;
   color: #FFFFFF;
 }
-
+.gallery--grid{
+  padding-left:0;
+  margin-bottom:50px;
+}
 .galleryLayoutSwitcher {
   border-radius: 4px 4px 4px 4px;
   justify-content: center;
@@ -27,6 +30,6 @@
   align-self: center
 }
 
-.galleryItem--list {
-  border-bottom: 1px #E7E9EE solid;
+.galleryItem{
+  padding:10px 5px 0;
 }
