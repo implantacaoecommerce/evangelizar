@@ -43,7 +43,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
       "blockClass": "carousel"
     }
   },
@@ -73,6 +73,7 @@
       },
       "infinite": true,
       "fullWidth": false,
+      "showPaginationDots": false,
       "blockClass": "shelf"
     }
   },
@@ -143,7 +144,8 @@
       },
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf"
+      "showPaginationDots": false,
+      "blockClass": "shelf2"
     }
   },
   "rich-text#shelf-title3": {
@@ -169,7 +171,7 @@
   },
   "image#banners1": {
     "props": {
-      "src": "/arquivos/banner1.svg"
+      "src": "/arquivos/banner1.png"
     }
   },
   "flex-layout.col#banners2":{
@@ -243,6 +245,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": false,
       "blockClass": "carousel"
     }
   },

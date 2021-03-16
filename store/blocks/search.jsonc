@@ -121,6 +121,7 @@
   },
   "image#banners-category":{
     "props": {
+      "blockClass":"banners-category",
       "src": "/arquivos/banner-category.png"
     }
   },

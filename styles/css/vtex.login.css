@@ -14,7 +14,7 @@
 }
 .container :global(.vtex-button__label){
     padding:0 !important;
-    margin:0 0 0 5px;
+    margin:0 20px;
 }
 .profile::before, .label::before, .buttonLink::before{
     content: "";

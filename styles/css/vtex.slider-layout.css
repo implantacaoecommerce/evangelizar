@@ -25,9 +25,16 @@
   padding-left: .4rem;
   padding-right: .4rem;
 }
-.slideChildrenContainer--shelf{
-  border:1px solid #E8E8E8;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-radius:5px;
+.slideChildrenContainer--shelf2{margin:5px;}
+.slideChildrenContainer--shelf2 :global(.vtex-button){display:none;}
+.sliderArrows{
+  width:40px;
+  height:40px;
 }
+.sliderLeftArrow{
+  background:url(/arquivos/arrow-left.png) no-repeat !important;
+}
+.sliderRightArrow{
+  background:url(/arquivos/arrow-right.png) no-repeat !important;
+}
+.caretIcon{display:none;}
