@@ -11,6 +11,8 @@
       "rich-text#shelf-title3",
       "flex-layout.row#shelf3",
       "flex-layout.row#banners",
+      "rich-text#shelf-title5",
+      "list-context.image-list#categorias",
       "rich-text#shelf-title4",
       "flex-layout.row#shelf4",
       "newsletter-form"
@@ -176,6 +178,72 @@
   "image#banners2": {
     "props": {
       "src": "/arquivos/banner2.png"
+    }
+  },
+  "rich-text#shelf-title5": {
+    "props": {
+      "text": "## COMPRE POR CATEGORIA",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "list-context.image-list#categorias": {
+    "children": ["slider-layout#categorias"],
+    "props": {
+      "height": 145,
+      "images": [
+        {
+          "image": "/arquivos/lancamentos.png",
+          "mobileImage": "/arquivos/lancamentos.png",
+          "link": "/lancamentos"
+        },
+        {
+          "image": "/arquivos/acessorios.png",
+          "mobileImage": "/arquivos/acessorios.png",
+          "link": "/acessorios"
+        },
+        {
+          "image": "/arquivos/terco.png",
+          "mobileImage": "/arquivos/terco.png",
+          "link": "/terco"
+        },
+        {
+          "image": "/arquivos/livraria.png",
+          "mobileImage": "/arquivos/livraria.png",
+          "link": "/livraria"
+        },
+        {
+          "image": "/arquivos/vestuario.png",
+          "mobileImage": "/arquivos/vestuario.png",
+          "link": "/vestuario"
+        },
+        {
+          "image": "/arquivos/presente.png",
+          "mobileImage": "/arquivos/presente.png",
+          "link": "/presente"
+        },
+        {
+          "image": "/arquivos/imagens.png",
+          "mobileImage": "/arquivos/imagens.png",
+          "link": "/imagens"
+        },
+        {
+          "image": "/arquivos/imagens.png",
+          "mobileImage": "/arquivos/imagens.png",
+          "link": "/imagens"
+        }
+      ]
+    }
+  },
+  "slider-layout#categorias": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
     }
   },
   "rich-text#shelf-title4": {

@@ -14,8 +14,8 @@
     "props": {
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
-        "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -26,6 +26,9 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -36,6 +39,9 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -46,6 +52,9 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 16,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -63,7 +72,6 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
     "props": {
@@ -83,7 +91,10 @@
     "children": ["search-title.v2"]
   },
   "flex-layout.row#result": {
-    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#content"
+    ],
     "props": {
       "preventHorizontalStretch": true,
       "fullWidth": true
@@ -97,6 +108,7 @@
   },
   "flex-layout.col#content": {
     "children": [
+      "image#banners-category",
       "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
@@ -107,11 +119,19 @@
       "preventVerticalStretch": true
     }
   },
+  "image#banners-category":{
+    "props": {
+      "src": "/arquivos/banner-category.png"
+    }
+  },
   "flex-layout.row#searchinfo": {
-    "children": ["flex-layout.col#productCount", "flex-layout.row#orderByAndSwitcher"]
+    "props":{
+      "blockClass":"title-search"
+    },
+    "children": ["flex-layout.row#searchtitle","flex-layout.row#orderByAndSwitcher"]
   },
   "flex-layout.row#orderByAndSwitcher": {
-    "children": ["order-by.v2", "gallery-layout-switcher"],
+    "children": ["order-by.v2"],
     "props": {
       "horizontalAlign": "right",
       "preventHorizontalStretch": true,
