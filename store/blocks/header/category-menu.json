@@ -1,4 +1,705 @@
 {
+  "vtex.menu@2.x:menu#category-menu-mobile": {
+    "children": [
+      "menu-item#mobile-1",
+      "menu-item#mobile-2",
+      "menu-item#mobile-3",
+      "menu-item#mobile-4",
+      "menu-item#mobile-5",
+      "menu-item#mobile-6",
+      "menu-item#mobile-7",
+      "menu-item#mobile-8",
+      "menu-item#mobile-9"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "category-menu-mobile"
+    }
+  },
+  "menu-item#mobile-1": {
+    "props": {
+      "id": "menu-item-mobile-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 1",
+        "text": "Mobile 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-1"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-1": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-1"
+    ]
+  },
+  "flex-layout.row#mobile-1":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-1"
+    ]
+  },
+  "flex-layout.col#mobile-1":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-1-1"
+    ]
+  },  
+  "vtex.menu@2.x:menu#mobile-1-1": {
+    "children": [
+      "menu-item#mobile-1-1-1",
+      "menu-item#mobile-1-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-1-1-1": {
+    "props": {
+      "id": "menu-item-mobile-1-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 1 1",
+        "text": "Mobile 1 1"
+      }
+    }
+  },
+  "menu-item#mobile-1-1-2": {
+    "props": {
+      "id": "menu-item-mobile-1-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 1 2",
+        "text": "Mobile 1 2"
+      }
+    }
+  },
+  "menu-item#mobile-2": {
+    "props": {
+      "id": "menu-item-mobile-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 2",
+        "text": "Mobile 2"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-2"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-2": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-2"
+    ]
+  },
+  "flex-layout.row#mobile-2":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-2"
+    ]
+  },
+  "flex-layout.col#mobile-2":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-2-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-2-1": {
+    "children": [
+      "menu-item#mobile-2-1-1",
+      "menu-item#mobile-2-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-2-1-1": {
+    "props": {
+      "id": "menu-item-mobile-2-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 2 1",
+        "text": "Mobile 2 1"
+      }
+    }
+  },
+  "menu-item#mobile-2-1-2": {
+    "props": {
+      "id": "menu-item-mobile-2-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 2 2",
+        "text": "Mobile 2 2"
+      }
+    }
+  },
+  "menu-item#mobile-3": {
+    "props": {
+      "id": "menu-item-mobile-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 3",
+        "text": "Mobile 3"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-3"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-3": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-3"
+    ]
+  },
+  "flex-layout.row#mobile-3":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-3"
+    ]
+  },
+  "flex-layout.col#mobile-3":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-3-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-3-1": {
+    "children": [
+      "menu-item#mobile-3-1-1",
+      "menu-item#mobile-3-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-3-1-1": {
+    "props": {
+      "id": "menu-item-mobile-3-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 3 1",
+        "text": "Mobile 3 1"
+      }
+    }
+  },
+  "menu-item#mobile-3-1-2": {
+    "props": {
+      "id": "menu-item-mobile-3-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 3 2",
+        "text": "Mobile 3 2"
+      }
+    }
+  },
+  "menu-item#mobile-4": {
+    "props": {
+      "id": "menu-item-mobile-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 4",
+        "text": "Mobile 4"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-4"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-4": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-4"
+    ]
+  },
+  "flex-layout.row#mobile-4":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-4"
+    ]
+  },
+  "flex-layout.col#mobile-4":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-4-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-4-1": {
+    "children": [
+      "menu-item#mobile-4-1-1",
+      "menu-item#mobile-4-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-4-1-1": {
+    "props": {
+      "id": "menu-item-mobile-4-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 4 1",
+        "text": "Mobile 4 1"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-2": {
+    "props": {
+      "id": "menu-item-mobile-4-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 4 2",
+        "text": "Mobile 4 2"
+      }
+    }
+  },
+  "menu-item#mobile-5": {
+    "props": {
+      "id": "menu-item-mobile-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 5",
+        "text": "Mobile 5"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-5"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-5": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-5"
+    ]
+  },
+  "flex-layout.row#mobile-5":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-5"
+    ]
+  },
+  "flex-layout.col#mobile-5":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-5-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-5-1": {
+    "children": [
+      "menu-item#mobile-5-1-1",
+      "menu-item#mobile-5-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-5-1-1": {
+    "props": {
+      "id": "menu-item-mobile-5-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 5 1",
+        "text": "Mobile 5 1"
+      }
+    }
+  },
+  "menu-item#mobile-5-1-2": {
+    "props": {
+      "id": "menu-item-mobile-5-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 5 2",
+        "text": "Mobile 5 2"
+      }
+    }
+  },
+  "menu-item#mobile-6": {
+    "props": {
+      "id": "menu-item-mobile-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 6",
+        "text": "Mobile 6"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-6"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-6": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-6"
+    ]
+  },
+  "flex-layout.row#mobile-6":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-6"
+    ]
+  },
+  "flex-layout.col#mobile-6":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-6-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-6-1": {
+    "children": [
+      "menu-item#mobile-6-1-1",
+      "menu-item#mobile-6-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-6-1-1": {
+    "props": {
+      "id": "menu-item-mobile-6-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 6 1",
+        "text": "Mobile 6 1"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-2": {
+    "props": {
+      "id": "menu-item-mobile-6-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 6 2",
+        "text": "Mobile 6 2"
+      }
+    }
+  },
+  "menu-item#mobile-7": {
+    "props": {
+      "id": "menu-item-mobile-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 7",
+        "text": "Mobile 7"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-7"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-7": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-7"
+    ]
+  },
+  "flex-layout.row#mobile-7":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-7"
+    ]
+  },
+  "flex-layout.col#mobile-7":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-7-1"
+    ]
+  },
+  "vtex.menu@2.x:menu#mobile-7-1": {
+    "children": [
+      "menu-item#mobile-7-1-1",
+      "menu-item#mobile-7-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-7-1-1": {
+    "props": {
+      "id": "menu-item-mobile-7-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 7 1",
+        "text": "Mobile 7 1"
+      }
+    }
+  },
+  "menu-item#mobile-7-1-2": {
+    "props": {
+      "id": "menu-item-mobile-7-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 7 2",
+        "text": "Mobile 7 2"
+      }
+    }
+  },
+  "menu-item#mobile-8": {
+    "props": {
+      "id": "menu-item-mobile-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 8",
+        "text": "Mobile 8"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#mobile-8-1": {
+    "children": [
+      "menu-item#mobile-8-1-1",
+      "menu-item#mobile-8-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-8-1-1": {
+    "props": {
+      "id": "menu-item-mobile-8-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 8 1",
+        "text": "Mobile 8 1"
+      }
+    }
+  },
+  "menu-item#mobile-8-1-2": {
+    "props": {
+      "id": "menu-item-mobile-8-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 8 2",
+        "text": "Mobile 8 2"
+      }
+    }
+  },
+  "menu-item#mobile-9": {
+    "props": {
+      "id": "menu-item-mobile-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 9",
+        "text": "Mobile 9"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#mobile-9-1": {
+    "children": [
+      "menu-item#mobile-9-1-1",
+      "menu-item#mobile-9-1-2"
+    ],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#mobile-9-1-1": {
+    "props": {
+      "id": "menu-item-mobile-9-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 9 1",
+        "text": "Mobile 9 1"
+      }
+    }
+  },
+  "menu-item#mobile-9-1-2": {
+    "props": {
+      "id": "menu-item-mobile-9-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Mobile 9 2",
+        "text": "Mobile 9 2"
+      }
+    }
+  },
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
       "blockClass": "menu-principal",
