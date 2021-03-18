@@ -6,9 +6,9 @@
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
-      "shelf.relatedProducts",
       "product-reviews",
-      "product-questions-and-answers"
+      "product-questions-and-answers",
+      "shelf.relatedProducts"
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -104,7 +104,9 @@
       "flex-layout.row#buy-button",
       "product-separator",
       "availability-subscriber",
-      "shipping-simulator"
+      "shipping-simulator",
+      "flex-layout.row#selos1",
+      "flex-layout.row#selos2"
     ]
   },
 
@@ -129,5 +131,38 @@
       "marginBottom": 7
     },
     "children": ["add-to-cart-button"]
+  },
+  "flex-layout.row#selos1":{
+    "children": [
+      "rich-text#selos1"
+    ]
+  },
+  "rich-text#selos1":{
+    "props": {
+      "blockClass":"selos-title",
+      "text": "##### SELOS E SEGURANÇA"
+    }
+  },
+  "flex-layout.row#selos2":{
+    "children": [
+      "image#selos1",
+      "image#selos2",
+      "image#selos3"
+    ]
+  },
+  "image#selos1": {
+    "props": {
+      "src": "/arquivos/google-selo.png"
+    }
+  },
+  "image#selos2": {
+    "props": {
+      "src": "/arquivos/google-selo.png"
+    }
+  },
+  "image#selos3": {
+    "props": {
+      "src": "/arquivos/google-selo.png"
+    }
   }
 }

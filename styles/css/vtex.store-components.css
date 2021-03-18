@@ -142,3 +142,12 @@
   padding-bottom:5px;
   margin:20px 0 10px;
 }
+:global(.vtex-address-form__postalCode) :global(.vtex-input__label){
+  color:#213C84;
+  font-size:13px;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+.shippingContainer{
+  width:300px;
+}

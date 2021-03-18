@@ -69,7 +69,12 @@
 .container--deals .paragraph {
   margin: 0;
 }
-
+.heading--selos-title{
+  font-size:13px;
+  font-weight:bold;
+  color:#213C84;
+  text-transform:uppercase;
+}
 .container--link {
   justify-content: center;
 }
