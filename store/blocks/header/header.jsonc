@@ -241,6 +241,8 @@
 
   "menu#drawer": {
     "children": [
+      "login",
+      "rich-text#meus-pedidos",
       "vtex.menu@2.x:menu#category-menu-mobile"
     ],
     "props": {
@@ -267,6 +269,12 @@
     "children": [
       "flex-layout.col#contato-topo"
     ]
+  },
+  "rich-text#meus-pedidos":{
+    "props": {
+      "text": "[**Meus pedidos**](/account/orders)",
+      "blockClass": "meus-pedidos"
+    }
   },
   "flex-layout.row#3-mobile": {
     "children": [

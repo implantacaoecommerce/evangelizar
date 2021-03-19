@@ -31,10 +31,47 @@
     font-weight:bold;
     margin-top:30px;
 }
-.menuContainer--menu-principal .submenuWrapper .menuContainerNav{width:100%;}
+.menuContainer--menu-principal .submenuWrapper .menuContainerNav,
+.menuContainerNav{width:100%;}
 .menuContainer--menu-footer .styledLinkContainer{margin:0;}
 .menuContainer--menu-footer .styledLinkContent{
     color:#333;
     font-size:14px;
 }
 .menuContainer--menu-footer{margin-bottom:80px}
+.menuContainerNav--category-menu-mobile{
+    background:#C40E29;
+    color:#fff;
+    padding:10px 0;
+    height:100%;
+}
+.menuContainerNav--category-menu-mobile .styledLinkContent{
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    text-transform:uppercase;
+    padding:10px 0 18px;
+    border-bottom:1px solid #fff;
+}
+.menuContainerNav--category-menu-mobile .submenuAccordion .styledLinkContent{
+    border-bottom:0;
+    padding:5px 0;
+    font-weight:normal;
+    font-size:12px;
+}
+.accordionIcon{
+    font-size:0;
+    margin:5px 0 0;
+}
+.accordionIcon::after{
+    content:"";
+    display:inline-block;
+    width:19px;
+    height:10px;
+    background:url(/arquivos/icon-arrow.svg) no-repeat;
+    transition:.5s ease all;
+}
+.accordionIcon--isOpen::after{
+    transform:rotate(180deg);
+    transition:.5s ease all;
+}

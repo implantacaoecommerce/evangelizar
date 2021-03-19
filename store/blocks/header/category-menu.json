@@ -1,7 +1,6 @@
 {
   "vtex.menu@2.x:menu#category-menu-mobile": {
     "children": [
-      "login",
       "menu-item#mobile-1",
       "menu-item#mobile-2",
       "menu-item#mobile-3",
@@ -27,8 +26,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Mobile 1",
-        "text": "Mobile 1"
+        "tagTitle": "LANÇAMENTOS",
+        "text": "LANÇAMENTOS"
       }
     },
     "blocks": [
@@ -77,10 +76,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/lancamentos",
         "noFollow": false,
-        "tagTitle": "Mobile 1 1",
-        "text": "Mobile 1 1"
+        "tagTitle": "Ver tudo em lançamentos",
+        "text": "Ver tudo em lançamentos"
       }
     }
   },
@@ -109,8 +108,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Mobile 2",
-        "text": "Mobile 2"
+        "tagTitle": "ACESSÓRIOS",
+        "text": "ACESSÓRIOS"
       }
     },
     "blocks": [
@@ -144,7 +143,10 @@
   "vtex.menu@2.x:menu#mobile-2-1": {
     "children": [
       "menu-item#mobile-2-1-1",
-      "menu-item#mobile-2-1-2"
+      "menu-item#mobile-2-1-2",
+      "menu-item#mobile-2-1-3",
+      "menu-item#mobile-2-1-4",
+      "menu-item#mobile-2-1-5"
     ],
     "props": {
       "width": "auto",
@@ -159,10 +161,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/acessorios",
         "noFollow": false,
-        "tagTitle": "Mobile 2 1",
-        "text": "Mobile 2 1"
+        "tagTitle": "Ver tudo em acessórios",
+        "text": "Ver tudo em acessórios"
       }
     }
   },
@@ -174,10 +176,55 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/pulseiras",
         "noFollow": false,
-        "tagTitle": "Mobile 2 2",
-        "text": "Mobile 2 2"
+        "tagTitle": "PULSEIRAS",
+        "text": "PULSEIRAS"
+      }
+    }
+  },
+  "menu-item#mobile-2-1-3": {
+    "props": {
+      "id": "menu-item-mobile-2-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/colar",
+        "noFollow": false,
+        "tagTitle": "COLAR, CORRENTE, CORDÃO",
+        "text": "COLAR, CORRENTE, CORDÃO"
+      }
+    }
+  },
+  "menu-item#mobile-2-1-4": {
+    "props": {
+      "id": "menu-item-mobile-2-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/escapularios",
+        "noFollow": false,
+        "tagTitle": "ESCAPULÁRIOS",
+        "text": "ESCAPULÁRIOS"
+      }
+    }
+  },
+  "menu-item#mobile-2-1-5": {
+    "props": {
+      "id": "menu-item-mobile-2-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dezenas",
+        "noFollow": false,
+        "tagTitle": "DEZENAS PARA CARRO",
+        "text": "DEZENAS PARA CARRO"
       }
     }
   },
@@ -191,8 +238,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Mobile 3",
-        "text": "Mobile 3"
+        "tagTitle": "TERÇO E DEZENA",
+        "text": "TERÇO E DEZENA"
       }
     },
     "blocks": [
@@ -241,10 +288,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/terco",
         "noFollow": false,
-        "tagTitle": "Mobile 3 1",
-        "text": "Mobile 3 1"
+        "tagTitle": "Ver tudo em terços e dezenas",
+        "text": "Ver tudo em terços e dezenas"
       }
     }
   },
@@ -273,8 +320,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Mobile 4",
-        "text": "Mobile 4"
+        "tagTitle": "LIVRARIA E PAPELARIA",
+        "text": "LIVRARIA E PAPELARIA"
       }
     },
     "blocks": [
@@ -323,10 +370,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/livraria",
         "noFollow": false,
-        "tagTitle": "Mobile 4 1",
-        "text": "Mobile 4 1"
+        "tagTitle": "Ver tudo em livraria e papelaria",
+        "text": "Ver tudo em livraria e papelaria"
       }
     }
   },
@@ -355,8 +402,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Mobile 5",
-        "text": "Mobile 5"
+        "tagTitle": "VESTUÁRIO",
+        "text": "VESTUÁRIO"
       }
     },
     "blocks": [
@@ -405,10 +452,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/vestuario",
         "noFollow": false,
-        "tagTitle": "Mobile 5 1",
-        "text": "Mobile 5 1"
+        "tagTitle": "Ver tudo em vestuário",
+        "text": "Ver tudo em vestuário"
       }
     }
   },
@@ -437,8 +484,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Mobile 6",
-        "text": "Mobile 6"
+        "tagTitle": "PRESENTE E DECORAÇÃO",
+        "text": "PRESENTE E DECORAÇÃO"
       }
     },
     "blocks": [
@@ -487,10 +534,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/presentes",
         "noFollow": false,
-        "tagTitle": "Mobile 6 1",
-        "text": "Mobile 6 1"
+        "tagTitle": "Ver tudo em presentes e decoração",
+        "text": "Ver tudo em presentes e decoração"
       }
     }
   },
@@ -519,8 +566,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Mobile 7",
-        "text": "Mobile 7"
+        "tagTitle": "IMAGENS",
+        "text": "IMAGENS"
       }
     },
     "blocks": [
@@ -569,10 +616,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/imagens",
         "noFollow": false,
-        "tagTitle": "Mobile 7 1",
-        "text": "Mobile 7 1"
+        "tagTitle": "Ver tudo em Imagens",
+        "text": "Ver tudo em Imagens"
       }
     }
   },
@@ -601,10 +648,37 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Mobile 8",
-        "text": "Mobile 8"
+        "tagTitle": "CD E DVD",
+        "text": "CD E DVD"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-8"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-8": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-8"
+    ]
+  },
+  "flex-layout.row#mobile-8":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-8"
+    ]
+  },
+  "flex-layout.col#mobile-8":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-8-1"
+    ]
   },
   "vtex.menu@2.x:menu#mobile-8-1": {
     "children": [
@@ -624,10 +698,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/cds-dvds",
         "noFollow": false,
-        "tagTitle": "Mobile 8 1",
-        "text": "Mobile 8 1"
+        "tagTitle": "Ver tudo em CDS e DVDS",
+        "text": "Ver tudo em CDS e DVDS"
       }
     }
   },
@@ -656,10 +730,37 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Mobile 9",
-        "text": "Mobile 9"
+        "tagTitle": "OUTLET",
+        "text": "OUTLET"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#mobile-9"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#mobile-9": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#mobile-9"
+    ]
+  },
+  "flex-layout.row#mobile-9":{
+    "props": {
+      "blockClass": "menu-mobile"
+    },
+    "children": [
+      "flex-layout.col#mobile-9"
+    ]
+  },
+  "flex-layout.col#mobile-9":{
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#mobile-9-1"
+    ]
   },
   "vtex.menu@2.x:menu#mobile-9-1": {
     "children": [
@@ -679,10 +780,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/outlet",
         "noFollow": false,
-        "tagTitle": "Mobile 9 1",
-        "text": "Mobile 9 1"
+        "tagTitle": "Ver tudo em Outlet",
+        "text": "Ver tudo em Outlet"
       }
     }
   },

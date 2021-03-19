@@ -35,6 +35,9 @@
     .label::before{
         display: none;
     }
+    .container :global(.vtex-button__label){
+        margin:0 !important;
+    }
 }
 @media only screen and (min-width:1026px) and (max-width:1294px){
     .label::before{

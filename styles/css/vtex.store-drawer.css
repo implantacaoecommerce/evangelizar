@@ -1,3 +1,20 @@
 .menuIcon{
     color:#213C84;
 }
+.drawerContent{
+    position: relative;
+    height:100%;
+}
+.closeIconContainer{
+    position:absolute;
+    right:5px;
+    top:5px;
+    background:#213C84;
+    border-radius:50%;
+    padding:7px 9px 5px;
+}
+.closeIcon{color:#fff;}
+.closeIconButton{padding:0;}
+.childrenContainer,
+.drawerContent :global(.vtex-menu-2-x-menuContainer){height:100%;}
+.drawerContent :global(.vtex-login-2-x-buttonLink){padding:5px 20px;}
