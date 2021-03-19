@@ -38,3 +38,7 @@
   background:url(/arquivos/arrow-right.png) no-repeat !important;
 }
 .caretIcon{display:none;}
+@media only screen and (max-width: 639px) {
+  .sliderLayoutContainer--shelf{padding:0 !important;}
+  .sliderArrows{display:none;}
+}

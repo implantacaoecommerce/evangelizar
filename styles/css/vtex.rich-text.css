@@ -158,6 +158,9 @@
   margin:25px 0;
 }
 .paragraph--title-menu{margin:0 0 10px;}
+.container--text-top{
+  justify-content: flex-end;
+}
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -178,4 +181,9 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+}
+@media only screen and (max-width: 639px) {
+  .italic--deals{display:inline;}
+  .strong--deals{font-size:12px;}
+  .paragraph--deals{font-size:9px;}
 }

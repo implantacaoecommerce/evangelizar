@@ -151,3 +151,9 @@
 .shippingContainer{
   width:300px;
 }
+@media only screen and (max-width: 639px) {
+  .imageElement--deals{
+    margin-left:5px;
+    margin-right:5px;
+  }
+}

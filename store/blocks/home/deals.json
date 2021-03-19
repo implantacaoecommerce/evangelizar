@@ -34,7 +34,10 @@
     "children": [
       "image#deal2",
       "rich-text#deal2"
-    ]
+    ],
+    "props": {
+      "blockClass": "noborder-mobile"
+    }
   },
   "image#deal2": {
     "props": {

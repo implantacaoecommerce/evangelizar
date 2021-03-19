@@ -25,11 +25,11 @@
       "images": [
         {
           "image": "/arquivos/banner-principal.png",
-          "mobileImage": "/arquivos/banner-principal-mobile.jpg"
+          "mobileImage": "/arquivos/banner-mobile.png"
         },
         {
           "image": "/arquivos/banner-principal.png",
-          "mobileImage": "/arquivos/banner-principal-mobile.jpg"
+          "mobileImage": "/arquivos/banner-mobile.png"
         }
       ]
     }
@@ -67,8 +67,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 3,
-        "phone": 1
+        "tablet": 2,
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": false,
@@ -138,8 +138,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 2,
-        "tablet": 1,
-        "phone": 1
+        "tablet": 2,
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": false,
@@ -239,8 +239,8 @@
     "props": {
       "itemsPerPage": {
         "desktop": 7,
-        "tablet": 1,
-        "phone": 1
+        "tablet": 2,
+        "phone": 2
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",

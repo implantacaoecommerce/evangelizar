@@ -1,6 +1,7 @@
 {
   "vtex.menu@2.x:menu#category-menu-mobile": {
     "children": [
+      "login",
       "menu-item#mobile-1",
       "menu-item#mobile-2",
       "menu-item#mobile-3",

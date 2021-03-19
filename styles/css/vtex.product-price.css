@@ -77,3 +77,8 @@
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
+@media only screen and (max-width: 639px) {
+  .sellingPrice{font-size:12px;}
+  .sellingPriceValue{font-size:18px;}
+  .installments--summary{font-size:10px;}
+}
