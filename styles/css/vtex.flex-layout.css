@@ -205,4 +205,19 @@
   .flexRow--deals :global(.vtex-store-components-3-x-container){
     padding:0;
   }
+  .flexRowContent--social-networks{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .flexRowContent--social-networks :global(.vtex-rich-text-0-x-container){
+    justify-content:center;
+  }
+  .flexRowContent--menus-footer,
+  .flexRowContent--seals-footer{
+    display:flex;
+    justify-content:center;
+  }
+  .flexRowContent--seals-footer :global(.vtex-rich-text-0-x-container){justify-content:center;}
+  .flexCol--img-banner-3{display:none;}
 }

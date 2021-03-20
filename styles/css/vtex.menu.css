@@ -75,3 +75,11 @@
     transform:rotate(180deg);
     transition:.5s ease all;
 }
+@media only screen and (max-width: 639px) {
+    .menuContainerNav--menu-footer{text-align:center;}
+    .menuContainer--menu-footer{
+        align-items:center;
+        margin-bottom:50px;
+    }
+    .menuContainer--category-menu-mobile .styledLinkContainer{margin:0 1rem;}
+}

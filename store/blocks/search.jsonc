@@ -169,9 +169,9 @@
 
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
-      "flex-layout.row#productCountMobile",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#searchinfomobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",
       "flex-layout.row#fetchmore"
@@ -195,8 +195,7 @@
   "flex-layout.row#searchinfomobile": {
     "children": [
       "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#filterMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
@@ -258,7 +257,7 @@
           "itemsPerRow": {
             "(min-width:1300px)": 4,
             "desktop": 4,
-            "tablet": 3,
+            "tablet": 2,
             "phone": 2
           }
         },

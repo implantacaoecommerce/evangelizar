@@ -193,11 +193,23 @@
   .italic--deals{display:inline;}
   .strong--deals{font-size:12px;}
   .paragraph--deals{font-size:9px;}
-  .link--meus-pedidos::before{
+  .paragraph--meus-pedidos::before{
+    content:"";
     display:inline-block;
+    vertical-align:middle;
     width:28px;
     height:24px;
     background:url(/arquivos/pedidos.svg);
     margin-right:10px;
   }
+  .container--title-footer,
+  .container--whats-footer,
+  .container--payment-methods{justify-content:center;}
+  .container--title-footer{margin-top:20px;}
+  .container--newsletter{
+    margin-right:0;
+    text-align:center;
+  }
+  .wrapper--newsletter{width:100%;}
+  
 }

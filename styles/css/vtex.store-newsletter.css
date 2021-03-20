@@ -23,3 +23,17 @@
     padding:0 26px;
 }
 .newsletterForm{margin-top:20px;}
+@media only screen and (max-width: 639px) {
+    .newsletterForm{
+        display:block;
+    }
+    .nameInputContainer :global(.vtex-input-prefix__group),
+    .emailInputContainer :global(.vtex-input-prefix__group){
+        width:100%;
+        margin-bottom:10px;
+    }
+    .formSubmitContainer :global(.vtex-button){
+        width: 100%;
+        margin-bottom:25px;
+    }
+}
