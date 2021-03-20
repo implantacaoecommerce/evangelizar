@@ -1,6 +1,7 @@
 {
   "flex-layout.row#selling-price": {
     "props": {
+      "blockClass":"preco-produto",
       "colGap": 2,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,

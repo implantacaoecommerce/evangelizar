@@ -87,6 +87,7 @@
   },
   "flex-layout.col#right-col": {
     "props": {
+      "blockClass":"product-info",
       "preventVerticalStretch": true,
       "rowGap": 0
     },
@@ -144,6 +145,9 @@
     }
   },
   "flex-layout.row#selos2":{
+    "props":{
+      "blockClass":"selos-content"
+    },
     "children": [
       "image#selos1",
       "image#selos2",

@@ -205,7 +205,8 @@
   .flexRow--deals :global(.vtex-store-components-3-x-container){
     padding:0;
   }
-  .flexRowContent--social-networks{
+  .flexRowContent--social-networks,
+  .flexRowContent--selos-content{
     display:flex;
     align-items:center;
     justify-content:center;
@@ -220,4 +221,14 @@
   }
   .flexRowContent--seals-footer :global(.vtex-rich-text-0-x-container){justify-content:center;}
   .flexCol--img-banner-3{display:none;}
+  .flexCol--product-info,
+  .flexRow--preco-produto{
+    text-align:center;
+    align-items:center;
+  }
+  .flexRowContent--bt-comprar :global(.vtex-button),
+  .flexColChild--product-info{
+    width:100%;
+  }
+  .flexRowContent--preco-produto{justify-content:center;}
 }
