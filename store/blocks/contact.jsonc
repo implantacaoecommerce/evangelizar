@@ -1,38 +1,38 @@
 {
-  "store.custom#contact-us": {
+  "store.custom#contato": {
     "children": [
-      "flex-layout.row#contact-us"
+      "flex-layout.row#contato"
     ]
   },
 
-  "flex-layout.row#contact-us": {
+  "flex-layout.row#contato": {
     "props": {
       "blockClass": "contact"
     },
     "children": [
-      "flex-layout.col#contact-us"
+      "flex-layout.col#contato"
     ]
   },
 
-  "flex-layout.col#contact-us": {
+  "flex-layout.col#contato": {
     "children": [
-      "rich-text#contact-us",
-      "form#contact-us"
+      "rich-text#contato",
+      "form#contato"
     ]
   },
-  "rich-text#contact-us": {
+  "rich-text#contato": {
     "props": {
       "text": "## Contact Us"
     }
   },
 
-  "form#contact-us": {
+  "form#contato": {
     "props": {
       "entity": "contact",
       "schema": "site-contact"
     },
     "blocks": [
-      "form-success#contact-us"
+      "form-success#contato"
     ],
     "children": [
       "form-input.text#title",
@@ -43,7 +43,7 @@
     ]
   },
 
-  "form-success#contact-us": {
+  "form-success#contato": {
     "children": [
       "rich-text#success-submit"
     ]
