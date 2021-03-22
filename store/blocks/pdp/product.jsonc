@@ -8,6 +8,8 @@
       "product-specification-group#table",
       "product-reviews",
       "product-questions-and-answers",
+      "shelf.relatedProducts",
+      "shelf.relatedProducts",
       "shelf.relatedProducts"
     ]
   },
