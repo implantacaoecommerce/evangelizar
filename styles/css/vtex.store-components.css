@@ -151,6 +151,14 @@
 .shippingContainer{
   width:300px;
 }
+.sellingPriceContainer{
+  color: #3f3f40;
+  font-size: 1.25rem;
+}
+.sellingPrice{
+  font-size: 19px;
+  font-weight: 700;
+}
 @media only screen and (max-width: 639px) {
   .imageElement--deals{
     margin-left:5px;

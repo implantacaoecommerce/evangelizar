@@ -3,14 +3,14 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
+      "flex-layout.row#product-shelf1",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
       "product-reviews",
       "product-questions-and-answers",
-      "shelf.relatedProducts",
-      "shelf.relatedProducts",
-      "shelf.relatedProducts"
+      "flex-layout.row#product-shelf2",
+      "flex-layout.row#product-shelf3"
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -170,5 +170,20 @@
     "props": {
       "src": "/arquivos/google-selo.png"
     }
+  },
+  "flex-layout.row#product-shelf1":{
+    "children":[
+      "shelf.relatedProducts"
+    ]
+  },
+  "flex-layout.row#product-shelf2":{
+    "children":[
+      "shelf.relatedProducts"
+    ]
+  },
+  "flex-layout.row#product-shelf3":{
+    "children":[
+      "shelf.relatedProducts"
+    ]
   }
 }

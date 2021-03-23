@@ -1,0 +1,27 @@
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #213c84;
+    margin: 40px 0 20px;
+    text-transform:uppercase;
+}
+.slide{
+    margin:0 10px 25px;
+    padding-left:0;
+    padding-right:0;
+}
+.arrow{
+    width: 40px;
+    height: 40px;
+}
+.arrowLeft{
+    background: url(/arquivos/arrow-left.png) no-repeat!important;
+}
+.arrowRight{
+    background: url(/arquivos/arrow-right.png) no-repeat!important;
+}
+.caretIcon{display:none;}
+.sliderContainer{
+    padding-left:50px;
+    padding-right:50px;
+}

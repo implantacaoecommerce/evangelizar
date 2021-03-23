@@ -20,19 +20,33 @@
   font-weight:bold;
   padding:20px 0 23px;
 }
+.buyButton :global(.vtex-button){
+  font-weight:bold;
+  padding:16px 0 13px;
+}
+.price_installmentContainer{
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  color:#333;
+}
+.priceContainer{padding:0}
+.buyButtonContainer{padding-top:0;}
+.buyButton :global(.vtex-button__label){padding:0 !important;}
 .nameContainer {
   justify-content: center;
   padding-top: 0;
   padding-bottom: 1rem;
 }
 
-.brandName {
+.brandName,
+.productBrand{
   font-weight: 600;
   font-size: 14px;
   color: #333;
   text-transform:uppercase;
 }
-
+.productNameContainer{line-height:17px;}
+.imageNormal{height:250px;}
 .container {
   text-align: center;
   border:1px solid #E8E8E8;
