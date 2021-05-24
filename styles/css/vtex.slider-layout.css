@@ -32,10 +32,10 @@
   height:40px;
 }
 .sliderLeftArrow{
-  background:url(/arquivos/arrow-left.png) no-repeat !important;
+  background:url(/arquivos/arrow_left.png) no-repeat !important;
 }
 .sliderRightArrow{
-  background:url(/arquivos/arrow-right.png) no-repeat !important;
+  background:url(/arquivos/arrow_right.png) no-repeat !important;
 }
 .caretIcon{display:none;}
 @media only screen and (max-width: 639px) {

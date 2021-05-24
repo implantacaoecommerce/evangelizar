@@ -1,5 +1,5 @@
 .newsletterForm{
-    background:#C40E29;
+    background:#2a3f82;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -15,7 +15,7 @@
     width:270px;
 }
 .formSubmitContainer :global(.vtex-button){
-    background:#213C84;
+    background:#3595b2;
     border:0;
     font-size:14px;
     font-weight:bold;

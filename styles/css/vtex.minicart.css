@@ -1,6 +1,19 @@
 .minicartQuantityBadgeDefault{
-    top: 0;
-    right: -30px;
+    top: -5px;
+    right: -25px;
     padding:5px;
+    background: #3595b2;
+    font-weight: bold;
 }
 .minicartTitle{color:#333}
+
+.minicartWrapperContainer :global(.vtex-button){
+    background: #3595b21a;
+}
+
+.minicartIconContainer{
+    width: 27px;
+    height: 27px;
+    background: url('/arquivos/cart__Evangelizar.svg') no-repeat center;
+    background-size: 100% auto;
+}

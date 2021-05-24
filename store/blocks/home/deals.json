@@ -19,7 +19,7 @@
   },
   "image#deal1": {
     "props": {
-      "src": "/arquivos/truck.svg",
+      "src": "/arquivos/entrega-nacional.svg",
       "maxHeight": "30px",
       "blockClass": "deals"
     }
@@ -41,7 +41,7 @@
   },
   "image#deal2": {
     "props": {
-      "src": "/arquivos/credit.svg",
+      "src": "/arquivos/parcelamento.svg",
       "maxHeight": "27px",
       "blockClass": "deals"
     }
@@ -60,7 +60,7 @@
   },
   "image#deal3": {
     "props": {
-      "src": "/arquivos/seal.svg",
+      "src": "/arquivos/produtos-originais.svg",
       "maxHeight": "34px",
       "blockClass": "deals"
     }
@@ -82,7 +82,7 @@
   },
   "image#deal4": {
     "props": {
-      "src": "/arquivos/lock.svg",
+      "src": "/arquivos/site-seguro.svg",
       "maxHeight": "30px",
       "blockClass": "deals"
     }

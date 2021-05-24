@@ -1,3 +1,7 @@
+.sizeDesktop{
+  padding: 0;
+}
+
 @media only screen and (min-width: 640px){
   .searchBarContainer{
     margin: 18px 40px;
@@ -9,10 +13,14 @@
   padding:10px 20px;
 }
 .searchBarContainer :global(.vtex-input-prefix__group){
-  border:1px solid #C40E29;
+  border:1px solid #ddd;
   height:50px;
   border-radius:10px;
 }
+/* .searchBarContainer :global(.vtex-input__suffix){
+  
+} */
+
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;

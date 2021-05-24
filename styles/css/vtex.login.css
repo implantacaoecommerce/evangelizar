@@ -1,6 +1,6 @@
 .label{
     text-transform:capitalize;
-    color: #727273;
+    color: #2a3f82;
     padding:0;
     font-size:0;
 }
@@ -10,7 +10,10 @@
     vertical-align:middle;
     font-size:15px;
     font-weight:bold;
-    color:#333;
+    color:#3595b2;
+}
+.container :global(.vtex-button:hover){
+    background: #3595b21a;
 }
 .container :global(.vtex-button__label){
     padding:0 !important;
@@ -23,7 +26,9 @@
     height: 27px;
     margin-right: 10px;
     vertical-align: middle;
-    background: url('/arquivos/person.svg');
+    /* background: url('/arquivos/person.svg'); */
+    background: url('/arquivos/login__Evangelizar.svg');
+    background-size: 100% auto;
 }
 @media only screen and (max-width: 1023px) {
     .label{

@@ -14,19 +14,26 @@
 }
 .link--text-top{color:#333;}
 .link--doacao{
-  color:#fff;
+  display: block;
+  background: #eee;
+  color:#3595b2;
   text-decoration:none;
+  padding: 8px 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 130px;
+  margin: 18px 30px 0 0;
 }
-.wrapper--doacao{
-  background:#F7A504;
-  color:#fff;
+/* .wrapper--doacao{
+  background:#eee;
+  color:#3595b2;
   width:130px;
   border-radius:10px;
   padding:9px;
   text-align:center;
   margin-top:18px;
   margin-right:30px;
-}
+} */
 .paragraph--deals{
   font-size:12px;
   color:#213C84;

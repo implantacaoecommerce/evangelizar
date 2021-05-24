@@ -3,7 +3,7 @@
   padding: 0 0.5rem;
 }
 .flexRow--main-menu{
-  background:#C40E29;
+  background:#3595b2;
   color:#fff;
 }
 .flexRow--main-menu :global(.vtex-menu-2-x-styledLinkContent) {
@@ -25,10 +25,18 @@
   }
 }
 
-.flexRowContent--menu-link {
+.flexRow.flexRow--menu-link{
   background-color: #EFF0F0;
   color: #333;
 }
+
+.flexRowContent--menu-link {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
 
 .flexRowContent--main-header {
   background-color: #fff;

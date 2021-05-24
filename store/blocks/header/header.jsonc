@@ -22,7 +22,7 @@
     },
     "children": [
       "flex-layout.col#site-seguro",
-      "flex-layout.col#spacer",
+      // "flex-layout.col#spacer",
       "flex-layout.col#contato-topo"
     ]
   },
