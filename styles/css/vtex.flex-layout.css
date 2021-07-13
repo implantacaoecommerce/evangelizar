@@ -1,3 +1,8 @@
+.flexRowContent{
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0.5rem;
@@ -32,13 +37,13 @@
 
 .flexRowContent--menu-link {
   width: 90%;
-  max-width: 1000px;
+  max-width: 1140px;
   margin: 0 auto;
   justify-content: space-between;
 }
 
 
-.flexRowContent--main-header {
+.flexRow--main-header {
   background-color: #fff;
 }
 
@@ -240,4 +245,8 @@
     width:100%;
   }
   .flexRowContent--preco-produto{justify-content:center;}
+}
+
+.flexRowContent .stretchChildrenWidth{
+  
 }

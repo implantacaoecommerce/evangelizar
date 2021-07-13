@@ -5,6 +5,24 @@
   background-color: transparent;
 }
 
+.sliderLayoutContainer--carouselCategorias{
+  width: 90%;
+  max-width: 1140px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 40em) {
+  .imageElementLink--carouselCategorias{
+    transition: .3s;
+    position: relative;
+    top: 0;
+  }
+  .imageElementLink--carouselCategorias:hover{
+    top: -5px;
+  }
+}
+
 .sliderTrackContainer {
   max-width: 1520px;
 }

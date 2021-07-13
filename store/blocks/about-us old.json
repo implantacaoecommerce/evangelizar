@@ -1,19 +1,21 @@
 {
   "store.custom#sobre": {
     "blocks": [
-      "flex-layout.row#sobre"
+      "flex-layout.row#sobre",
+      "video#sobre"
     ]
   },
 
   "flex-layout.row#sobre": {
     "children": [
-      "flex-layout.col#text-sobre",
-      "image#mobile-phone"
+      "image#mobile-phone",
+      "flex-layout.col#text-sobre"
     ]
   },
 
   "flex-layout.col#text-sobre": {
     "children": [
+      "rich-text#title-sobre",
       "rich-text#sobre"
     ],
     "props": {
@@ -36,6 +38,13 @@
       "maxHeight": "",
       "maxWidth": "",
       "blockClass": "storePrint"
+    }
+  },
+  "video#sobre": {
+    "props": {
+      "src": "https://www.youtube.com/embed/JgkrlaF52WQ",
+      "width": "100%",
+      "height": "100%"
     }
   },
   "rich-text#sobre": {

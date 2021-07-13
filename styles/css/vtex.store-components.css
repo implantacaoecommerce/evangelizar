@@ -6,7 +6,7 @@
   .searchBarContainer{
     margin: 18px 40px;
     padding: 0;
-    width: 470px;
+    width: 510px;
   }
 }
 .searchBarContainer :global(.vtex-styleguide-9-x-input){

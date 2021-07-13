@@ -245,7 +245,7 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": false,
-      "blockClass": "carousel"
+      "blockClass": "carouselCategorias"
     }
   },
   "rich-text#shelf-title4": {

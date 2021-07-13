@@ -60,8 +60,7 @@
   },  
   "vtex.menu@2.x:menu#mobile-1-1": {
     "children": [
-      "menu-item#mobile-1-1-1",
-      "menu-item#mobile-1-1-2"
+      "menu-item#mobile-1-1-1"
     ],
     "props": {
       "width": "auto",
@@ -78,26 +77,14 @@
         "type": "internal",
         "href": "/lancamentos",
         "noFollow": false,
-        "tagTitle": "Ver tudo em lançamentos",
-        "text": "Ver tudo em lançamentos"
+        "tagTitle": "Todos os Lançamentos",
+        "text": "Todos os Lançamentos"
       }
     }
   },
-  "menu-item#mobile-1-1-2": {
-    "props": {
-      "id": "menu-item-mobile-1-2",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "noFollow": false,
-        "tagTitle": "Mobile 1 2",
-        "text": "Mobile 1 2"
-      }
-    }
-  },
+
+
+
   "menu-item#mobile-2": {
     "props": {
       "id": "menu-item-mobile-2",
@@ -108,8 +95,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "ACESSÓRIOS",
-        "text": "ACESSÓRIOS"
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
       }
     },
     "blocks": [
@@ -146,7 +133,9 @@
       "menu-item#mobile-2-1-2",
       "menu-item#mobile-2-1-3",
       "menu-item#mobile-2-1-4",
-      "menu-item#mobile-2-1-5"
+      "menu-item#mobile-2-1-5",
+      "menu-item#mobile-2-1-6",
+      "menu-item#mobile-2-1-7"
     ],
     "props": {
       "width": "auto",
@@ -161,10 +150,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acessorios",
+        "href": "/acessorio-pessoal",
         "noFollow": false,
-        "tagTitle": "Ver tudo em acessórios",
-        "text": "Ver tudo em acessórios"
+        "tagTitle": "Todos os acessórios",
+        "text": "Todos os acessórios"
       }
     }
   },
@@ -176,10 +165,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/pulseiras",
+        "href": "/acessorio-pessoal/pulseira",
         "noFollow": false,
-        "tagTitle": "PULSEIRAS",
-        "text": "PULSEIRAS"
+        "tagTitle": "Pulseiras",
+        "text": "Pulseiras"
       }
     }
   },
@@ -191,10 +180,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/colar",
+        "href": "/acessorio-pessoal/colar---corrente---cordao---gargantilha",
         "noFollow": false,
-        "tagTitle": "COLAR, CORRENTE, CORDÃO",
-        "text": "COLAR, CORRENTE, CORDÃO"
+        "tagTitle": "Colar, Corrente, Cordão e Gargantilha",
+        "text": "Colar, Corrente, Cordão e Gargantilha"
       }
     }
   },
@@ -206,10 +195,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/escapularios",
+        "href": "/acessorio-pessoal/escapulario",
         "noFollow": false,
-        "tagTitle": "ESCAPULÁRIOS",
-        "text": "ESCAPULÁRIOS"
+        "tagTitle": "Escapulários",
+        "text": "Escapulários"
       }
     }
   },
@@ -221,13 +210,49 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/dezenas",
+        "href": "/acessorio-pessoal/pingente---medalha",
         "noFollow": false,
-        "tagTitle": "DEZENAS PARA CARRO",
-        "text": "DEZENAS PARA CARRO"
+        "tagTitle": "Pingentes / Medalhas",
+        "text": "Pingentes / Medalhas"
       }
     }
   },
+  "menu-item#mobile-2-1-6": {
+    "props": {
+      "id": "menu-item-mobile-2-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorio-pessoal/infantil",
+        "noFollow": false,
+        "tagTitle": "Infantil",
+        "text": "Infantil"
+      }
+    }
+  },
+  "menu-item#mobile-2-1-7": {
+    "props": {
+      "id": "menu-item-mobile-2-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorio-pessoal/diversos",
+        "noFollow": false,
+        "tagTitle": "Diversos",
+        "text": "Diversos"
+      }
+    }
+  },
+
+
+
+
+
+
   "menu-item#mobile-3": {
     "props": {
       "id": "menu-item-mobile-3",
@@ -238,8 +263,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "TERÇO E DEZENA",
-        "text": "TERÇO E DEZENA"
+        "tagTitle": "Terço e Dezena",
+        "text": "Terço e Dezena"
       }
     },
     "blocks": [
@@ -273,7 +298,12 @@
   "vtex.menu@2.x:menu#mobile-3-1": {
     "children": [
       "menu-item#mobile-3-1-1",
-      "menu-item#mobile-3-1-2"
+      "menu-item#mobile-3-1-2",
+      "menu-item#mobile-3-1-3",
+      "menu-item#mobile-3-1-4",
+      "menu-item#mobile-3-1-5",
+      "menu-item#mobile-3-1-6",
+      "menu-item#mobile-3-1-7"
     ],
     "props": {
       "width": "auto",
@@ -288,10 +318,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/terco",
+        "href": "/terco-e-dezena",
         "noFollow": false,
-        "tagTitle": "Ver tudo em terços e dezenas",
-        "text": "Ver tudo em terços e dezenas"
+        "tagTitle": "Todos os Terços e Dezenas",
+        "text": "Todos os Terços e Dezenas"
       }
     }
   },
@@ -303,13 +333,95 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/terco-e-dezena/dezena",
         "noFollow": false,
-        "tagTitle": "Mobile 3 2",
-        "text": "Mobile 3 2"
+        "tagTitle": "Dezena",
+        "text": "Dezena"
       }
     }
   },
+  "menu-item#mobile-3-1-3": {
+    "props": {
+      "id": "menu-item-mobile-3-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-e-dezena/dezena-para-carro",
+        "noFollow": false,
+        "tagTitle": "Dezena para Carro",
+        "text": "Dezena para Carro"
+      }
+    }
+  },
+  "menu-item#mobile-3-1-4": {
+    "props": {
+      "id": "menu-item-mobile-3-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-e-dezena/infantil",
+        "noFollow": false,
+        "tagTitle": "Infantil",
+        "text": "Infantil"
+      }
+    }
+  },
+  "menu-item#mobile-3-1-5": {
+    "props": {
+      "id": "menu-item-mobile-3-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-e-dezena/rosario",
+        "noFollow": false,
+        "tagTitle": "Rosário",
+        "text": "Rosário"
+      }
+    }
+  },
+  "menu-item#mobile-3-1-6": {
+    "props": {
+      "id": "menu-item-mobile-3-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-e-dezena/terco",
+        "noFollow": false,
+        "tagTitle": "Terço",
+        "text": "Terço"
+      }
+    }
+  },
+  "menu-item#mobile-3-1-7": {
+    "props": {
+      "id": "menu-item-mobile-3-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-e-dezena/terco-de-noiva",
+        "noFollow": false,
+        "tagTitle": "Terço de Noiva",
+        "text": "Terço de Noiva"
+      }
+    }
+  },
+
+
+
+
+
+
+  
   "menu-item#mobile-4": {
     "props": {
       "id": "menu-item-mobile-4",
@@ -320,8 +432,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "LIVRARIA E PAPELARIA",
-        "text": "LIVRARIA E PAPELARIA"
+        "tagTitle": "Livraria e Papelaria",
+        "text": "Livraria e Papelaria"
       }
     },
     "blocks": [
@@ -355,7 +467,17 @@
   "vtex.menu@2.x:menu#mobile-4-1": {
     "children": [
       "menu-item#mobile-4-1-1",
-      "menu-item#mobile-4-1-2"
+      "menu-item#mobile-4-1-2",
+      "menu-item#mobile-4-1-3",
+      "menu-item#mobile-4-1-4",
+      "menu-item#mobile-4-1-5",
+      "menu-item#mobile-4-1-6",
+      "menu-item#mobile-4-1-7",
+      "menu-item#mobile-4-1-8",
+      "menu-item#mobile-4-1-9",
+      "menu-item#mobile-4-1-10",
+      "menu-item#mobile-4-1-11",
+      "menu-item#mobile-4-1-12"
     ],
     "props": {
       "width": "auto",
@@ -370,10 +492,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/livraria",
+        "href": "/livraria-e-papelaria",
         "noFollow": false,
-        "tagTitle": "Ver tudo em livraria e papelaria",
-        "text": "Ver tudo em livraria e papelaria"
+        "tagTitle": "Tudo em Livraria e Papelaria",
+        "text": "Tudo em Livraria e Papelaria"
       }
     }
   },
@@ -385,13 +507,185 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/livraria-e-papelaria/biblia",
         "noFollow": false,
-        "tagTitle": "Mobile 4 2",
-        "text": "Mobile 4 2"
+        "tagTitle": "Bíblia",
+        "text": "Bíblia"
       }
     }
   },
+  "menu-item#mobile-4-1-3": {
+    "props": {
+      "id": "menu-item-mobile-4-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/biblia-infantil",
+        "noFollow": false,
+        "tagTitle": "Bíblia Infantil",
+        "text": "Bíblia Infantil"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-4": {
+    "props": {
+      "id": "menu-item-mobile-4-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/caderno",
+        "noFollow": false,
+        "tagTitle": "Caderno",
+        "text": "Caderno"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-5": {
+    "props": {
+      "id": "menu-item-mobile-4-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/cartao---oracao",
+        "noFollow": false,
+        "tagTitle": "Cartão / Oração",
+        "text": "Cartão / Oração"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-6": {
+    "props": {
+      "id": "menu-item-mobile-4-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/devocionario",
+        "noFollow": false,
+        "tagTitle": "Devocionário",
+        "text": "Devocionário"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-7": {
+    "props": {
+      "id": "menu-item-mobile-4-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/diario",
+        "noFollow": false,
+        "tagTitle": "Diário",
+        "text": "Diário"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-8": {
+    "props": {
+      "id": "menu-item-mobile-4-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/diversos",
+        "noFollow": false,
+        "tagTitle": "Diversos",
+        "text": "Diversos"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-9": {
+    "props": {
+      "id": "menu-item-mobile-4-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/livreto---novena",
+        "noFollow": false,
+        "tagTitle": "Livreto / Novena",
+        "text": "Livreto / Novena"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-10": {
+    "props": {
+      "id": "menu-item-mobile-4-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/livro",
+        "noFollow": false,
+        "tagTitle": "Livro",
+        "text": "Livro"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-11": {
+    "props": {
+      "id": "menu-item-mobile-4-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/livro-infantil",
+        "noFollow": false,
+        "tagTitle": "Livro Infantil",
+        "text": "Livro Infantil"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-12": {
+    "props": {
+      "id": "menu-item-mobile-4-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/marca-pagina",
+        "noFollow": false,
+        "tagTitle": "Marca Página",
+        "text": "Marca Página"
+      }
+    }
+  },
+  "menu-item#mobile-4-1-2": {
+    "props": {
+      "id": "menu-item-mobile-4-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-e-papelaria/",
+        "noFollow": false,
+        "tagTitle": "Mobile",
+        "text": "Mobile"
+      }
+    }
+  },
+
+
+
+
+
+
+
   "menu-item#mobile-5": {
     "props": {
       "id": "menu-item-mobile-5",
@@ -402,8 +696,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "VESTUÁRIO",
-        "text": "VESTUÁRIO"
+        "tagTitle": "Vestuário",
+        "text": "Vestuário"
       }
     },
     "blocks": [
@@ -437,7 +731,10 @@
   "vtex.menu@2.x:menu#mobile-5-1": {
     "children": [
       "menu-item#mobile-5-1-1",
-      "menu-item#mobile-5-1-2"
+      "menu-item#mobile-5-1-2",
+      "menu-item#mobile-5-1-3",
+      "menu-item#mobile-5-1-4",
+      "menu-item#mobile-5-1-5"
     ],
     "props": {
       "width": "auto",
@@ -454,8 +751,8 @@
         "type": "internal",
         "href": "/vestuario",
         "noFollow": false,
-        "tagTitle": "Ver tudo em vestuário",
-        "text": "Ver tudo em vestuário"
+        "tagTitle": "Tudo em Vestuário",
+        "text": "Tudo em Vestuário"
       }
     }
   },
@@ -467,13 +764,63 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/vestuario/feminino",
         "noFollow": false,
-        "tagTitle": "Mobile 5 2",
-        "text": "Mobile 5 2"
+        "tagTitle": "Feminino",
+        "text": "Feminino"
       }
     }
   },
+  "menu-item#mobile-5-1-3": {
+    "props": {
+      "id": "menu-item-mobile-5-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/masculino",
+        "noFollow": false,
+        "tagTitle": "Masculino",
+        "text": "Masculino"
+      }
+    }
+  },
+  "menu-item#mobile-5-1-4": {
+    "props": {
+      "id": "menu-item-mobile-5-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/infantil",
+        "noFollow": false,
+        "tagTitle": "Infantil",
+        "text": "Infantil"
+      }
+    }
+  },
+  "menu-item#mobile-5-1-5": {
+    "props": {
+      "id": "menu-item-mobile-5-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/unissex",
+        "noFollow": false,
+        "tagTitle": "Unissex",
+        "text": "Unissex"
+      }
+    }
+  },
+
+
+
+
+
   "menu-item#mobile-6": {
     "props": {
       "id": "menu-item-mobile-6",
@@ -484,8 +831,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "PRESENTE E DECORAÇÃO",
-        "text": "PRESENTE E DECORAÇÃO"
+        "tagTitle": "Presente e Decoração",
+        "text": "Presente e Decoração"
       }
     },
     "blocks": [
@@ -519,7 +866,22 @@
   "vtex.menu@2.x:menu#mobile-6-1": {
     "children": [
       "menu-item#mobile-6-1-1",
-      "menu-item#mobile-6-1-2"
+      "menu-item#mobile-6-1-2",
+      "menu-item#mobile-6-1-3",
+      "menu-item#mobile-6-1-4",
+      "menu-item#mobile-6-1-5",
+      "menu-item#mobile-6-1-6",
+      "menu-item#mobile-6-1-7",
+      "menu-item#mobile-6-1-8",
+      "menu-item#mobile-6-1-9",
+      "menu-item#mobile-6-1-10",
+      "menu-item#mobile-6-1-11",
+      "menu-item#mobile-6-1-12",
+      "menu-item#mobile-6-1-13",
+      "menu-item#mobile-6-1-14",
+      "menu-item#mobile-6-1-15",
+      "menu-item#mobile-6-1-16",
+      "menu-item#mobile-6-1-17"
     ],
     "props": {
       "width": "auto",
@@ -534,10 +896,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/presentes",
+        "href": "/presente-e-decoracao",
         "noFollow": false,
-        "tagTitle": "Ver tudo em presentes e decoração",
-        "text": "Ver tudo em presentes e decoração"
+        "tagTitle": "Tudo de Presente e Decoração",
+        "text": "Tudo de Presente e Decoração"
       }
     }
   },
@@ -549,13 +911,245 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/presente-e-decoracao/adorno",
         "noFollow": false,
-        "tagTitle": "Mobile 6 2",
-        "text": "Mobile 6 2"
+        "tagTitle": "Adorno",
+        "text": "Adorno"
       }
     }
   },
+  "menu-item#mobile-6-1-3": {
+    "props": {
+      "id": "menu-item-mobile-6-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/almofada",
+        "noFollow": false,
+        "tagTitle": "Almofada",
+        "text": "Almofada"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-4": {
+    "props": {
+      "id": "menu-item-mobile-6-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/brinquedo",
+        "noFollow": false,
+        "tagTitle": "Brinquedo",
+        "text": "Brinquedo"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-5": {
+    "props": {
+      "id": "menu-item-mobile-6-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/caneca",
+        "noFollow": false,
+        "tagTitle": "Caneca",
+        "text": "Caneca"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-6": {
+    "props": {
+      "id": "menu-item-mobile-6-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/capela",
+        "noFollow": false,
+        "tagTitle": "Capela",
+        "text": "Capela"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-7": {
+    "props": {
+      "id": "menu-item-mobile-6-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/chaveiro",
+        "noFollow": false,
+        "tagTitle": "Chaveiro",
+        "text": "Chaveiro"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-8": {
+    "props": {
+      "id": "menu-item-mobile-6-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/crucifixo",
+        "noFollow": false,
+        "tagTitle": "Crucifixo",
+        "text": "Crucifixo"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-9": {
+    "props": {
+      "id": "menu-item-mobile-6-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/diversos",
+        "noFollow": false,
+        "tagTitle": "Diversos",
+        "text": "Diversos"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-10": {
+    "props": {
+      "id": "menu-item-mobile-6-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/ima",
+        "noFollow": false,
+        "tagTitle": "Imã",
+        "text": "Imã"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-11": {
+    "props": {
+      "id": "menu-item-mobile-6-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/incenso---incensario",
+        "noFollow": false,
+        "tagTitle": "Incenso / Incensário",
+        "text": "Incenso / Incensário"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-12": {
+    "props": {
+      "id": "menu-item-mobile-6-12",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/oracao-de-mesa",
+        "noFollow": false,
+        "tagTitle": "Oração de Mesa",
+        "text": "Oração de Mesa"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-13": {
+    "props": {
+      "id": "menu-item-mobile-6-13",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/porta-biblia",
+        "noFollow": false,
+        "tagTitle": "Porta Bíblia",
+        "text": "Porta Bíblia"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-14": {
+    "props": {
+      "id": "menu-item-mobile-6-14",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/porta-chave",
+        "noFollow": false,
+        "tagTitle": "Porta Chave",
+        "text": "Porta Chave"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-15": {
+    "props": {
+      "id": "menu-item-mobile-6-15",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/quadro",
+        "noFollow": false,
+        "tagTitle": "Quadro",
+        "text": "Quadro"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-16": {
+    "props": {
+      "id": "menu-item-mobile-6-16",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/terco---dezena---rosario-de-parede",
+        "noFollow": false,
+        "tagTitle": "Terço / Dezena / Rosário de Parede",
+        "text": "Terço / Dezena / Rosário de Parede"
+      }
+    }
+  },
+  "menu-item#mobile-6-1-17": {
+    "props": {
+      "id": "menu-item-mobile-6-17",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/presente-e-decoracao/vela",
+        "noFollow": false,
+        "tagTitle": "Vela",
+        "text": "Vela"
+      }
+    }
+  },
+
+
+
+
+
+
+
   "menu-item#mobile-7": {
     "props": {
       "id": "menu-item-mobile-7",
@@ -566,8 +1160,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "IMAGENS",
-        "text": "IMAGENS"
+        "tagTitle": "Imagens",
+        "text": "Imagens"
       }
     },
     "blocks": [
@@ -601,7 +1195,12 @@
   "vtex.menu@2.x:menu#mobile-7-1": {
     "children": [
       "menu-item#mobile-7-1-1",
-      "menu-item#mobile-7-1-2"
+      "menu-item#mobile-7-1-2",
+      "menu-item#mobile-7-1-3",
+      "menu-item#mobile-7-1-4",
+      "menu-item#mobile-7-1-5",
+      "menu-item#mobile-7-1-6",
+      "menu-item#mobile-7-1-7"
     ],
     "props": {
       "width": "auto",
@@ -616,10 +1215,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/imagens",
+        "href": "/imagem",
         "noFollow": false,
-        "tagTitle": "Ver tudo em Imagens",
-        "text": "Ver tudo em Imagens"
+        "tagTitle": "Tudo de Imagem",
+        "text": "Tudo de Imagem"
       }
     }
   },
@@ -631,13 +1230,95 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/imagem/acima-de-30cm",
         "noFollow": false,
-        "tagTitle": "Mobile 7 2",
-        "text": "Mobile 7 2"
+        "tagTitle": "Acima de 30cm",
+        "text": "Acima de 30cm"
       }
     }
   },
+  "menu-item#mobile-7-1-3": {
+    "props": {
+      "id": "menu-item-mobile-7-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/imagem/ate-10cm",
+        "noFollow": false,
+        "tagTitle": "Até 10cm",
+        "text": "Até 10cm"
+      }
+    }
+  },
+  "menu-item#mobile-7-1-4": {
+    "props": {
+      "id": "menu-item-mobile-7-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/imagem/de-11-a-15cm",
+        "noFollow": false,
+        "tagTitle": "De 11 a 15cm",
+        "text": "De 11 a 15cm"
+      }
+    }
+  },
+  "menu-item#mobile-7-1-5": {
+    "props": {
+      "id": "menu-item-mobile-7-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/imagem/de-16-a-24cm",
+        "noFollow": false,
+        "tagTitle": "De 16 a 24cm",
+        "text": "De 16 a 24cm"
+      }
+    }
+  },
+  "menu-item#mobile-7-1-6": {
+    "props": {
+      "id": "menu-item-mobile-7-6",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/imagem/de-25-a-30cm",
+        "noFollow": false,
+        "tagTitle": "De 25 a 30cm",
+        "text": "De 25 a 30cm"
+      }
+    }
+  },
+  "menu-item#mobile-7-1-7": {
+    "props": {
+      "id": "menu-item-mobile-7-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/imagem/presepio",
+        "noFollow": false,
+        "tagTitle": "Presépio",
+        "text": "Presépio"
+      }
+    }
+  },
+
+
+
+
+
+
+
   "menu-item#mobile-8": {
     "props": {
       "id": "menu-item-mobile-8",
@@ -648,8 +1329,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "CD E DVD",
-        "text": "CD E DVD"
+        "tagTitle": "CD e DVD",
+        "text": "CD e DVD"
       }
     },
     "blocks": [
@@ -683,7 +1364,8 @@
   "vtex.menu@2.x:menu#mobile-8-1": {
     "children": [
       "menu-item#mobile-8-1-1",
-      "menu-item#mobile-8-1-2"
+      "menu-item#mobile-8-1-2",
+      "menu-item#mobile-8-1-3"
     ],
     "props": {
       "width": "auto",
@@ -698,10 +1380,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cds-dvds",
+        "href": "/cd-e-dvd",
         "noFollow": false,
-        "tagTitle": "Ver tudo em CDS e DVDS",
-        "text": "Ver tudo em CDS e DVDS"
+        "tagTitle": "Todos CDs e DVDs",
+        "text": "Todos CDs e DVDs"
       }
     }
   },
@@ -713,13 +1395,35 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/cd-e-dvd/cd",
         "noFollow": false,
-        "tagTitle": "Mobile 8 2",
-        "text": "Mobile 8 2"
+        "tagTitle": "CD",
+        "text": "CD "
       }
     }
   },
+  "menu-item#mobile-8-1-3": {
+    "props": {
+      "id": "menu-item-mobile-8-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cd-e-dvd/dvd",
+        "noFollow": false,
+        "tagTitle": "DVD",
+        "text": "DVD "
+      }
+    }
+  },
+
+
+
+
+
+
+
   "menu-item#mobile-9": {
     "props": {
       "id": "menu-item-mobile-9",
@@ -730,8 +1434,8 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "OUTLET",
-        "text": "OUTLET"
+        "tagTitle": "Outlet",
+        "text": "Outlet"
       }
     },
     "blocks": [
@@ -764,8 +1468,7 @@
   },
   "vtex.menu@2.x:menu#mobile-9-1": {
     "children": [
-      "menu-item#mobile-9-1-1",
-      "menu-item#mobile-9-1-2"
+      "menu-item#mobile-9-1-1"
     ],
     "props": {
       "width": "auto",
@@ -782,26 +1485,23 @@
         "type": "internal",
         "href": "/outlet",
         "noFollow": false,
-        "tagTitle": "Ver tudo em Outlet",
-        "text": "Ver tudo em Outlet"
+        "tagTitle": "Confira nosso Outlet",
+        "text": "Confira nosso Outlet"
       }
     }
   },
-  "menu-item#mobile-9-1-2": {
-    "props": {
-      "id": "menu-item-mobile-9-2",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "noFollow": false,
-        "tagTitle": "Mobile 9 2",
-        "text": "Mobile 9 2"
-      }
-    }
-  },
+  
+
+
+
+
+
+
+
+
+
+
+
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
       "blockClass": "menu-principal",
@@ -835,6 +1535,11 @@
       }
     }
   },
+
+
+
+
+
   "menu-item#acessorios": {
     "props": {
       "id": "menu-item-acessorios",
@@ -871,17 +1576,18 @@
   },
   "flex-layout.row#acessorios":{
     "children": [
-      "flex-layout.col#acessorios1",
-      "flex-layout.col#acessorios2"
+      "flex-layout.col#acessorios1"
     ]
   },
   "flex-layout.col#acessorios1":{
     "children": [
       "rich-text#acessorios",
-      "menu-item#acessorios-pulseiras",
-      "menu-item#acessorios-colar",
+      "menu-item#acessorios-colar-corrente-cordao-gargantilha",
+      "menu-item#acessorios-diversos",
       "menu-item#acessorios-escapulario",
-      "menu-item#acessorios-dezenas",
+      "menu-item#acessorios-infantil",
+      "menu-item#acessorios-pingente-medalha",
+      "menu-item#acessorios-pulseira",
       "menu-item#ver-todos-acessorios"
     ]
   },
@@ -896,33 +1602,33 @@
       "blockClass": "title-menu"
     }
   },
-  "menu-item#acessorios-pulseiras": {
+  "menu-item#acessorios-colar-corrente-cordao-gargantilha": {
     "props": {
-      "id": "menu-item-acessorios-pulseiras",
+      "id": "menu-item-acessorios-colar-corrente-cordao-gargantilha",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acessorios/pulseiras/",
+        "href": "/acessorios/colar---corrente---cordao---gargantilha/",
         "noFollow": false,
-        "tagTitle": "Pulseiras",
-        "text": "Pulseiras"
+        "tagTitle": "Colar / Corrente / Cordão / Gargantilha",
+        "text": "Colar / Corrente / Cordão / Gargantilha"
       }
     }
   },
-  "menu-item#acessorios-colar": {
+  "menu-item#acessorios-diversos": {
     "props": {
-      "id": "menu-item-acessorios-colar",
+      "id": "menu-item-acessorios-diversos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acessorios/colar/",
+        "href": "/acessorios/diversos/",
         "noFollow": false,
-        "tagTitle": "Colar, corrente, cordão",
-        "text": "Colar, corrente, cordão"
+        "tagTitle": "Diversos",
+        "text": "Diversos"
       }
     }
   },
@@ -941,18 +1647,48 @@
       }
     }
   },
-  "menu-item#acessorios-dezenas": {
+  "menu-item#acessorios-infantil": {
     "props": {
-      "id": "menu-item-acessorios-dezenas",
+      "id": "menu-item-acessorios-infantil",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acessorios/dezenas/",
+        "href": "/acessorios/infantil/",
         "noFollow": false,
-        "tagTitle": "Dezenas para carro",
-        "text": "Dezenas para carro"
+        "tagTitle": "Infantil",
+        "text": "Infantil"
+      }
+    }
+  },
+  "menu-item#acessorios-pingente-medalha": {
+    "props": {
+      "id": "menu-item-acessorios-pingente-medalha",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/pingente---medalha/",
+        "noFollow": false,
+        "tagTitle": "Pingente / Medalha",
+        "text": "Pingente / Medalha"
+      }
+    }
+  },
+  "menu-item#acessorios-pulseira": {
+    "props": {
+      "id": "menu-item-acessorios-pulseira",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessorios/pulseira/",
+        "noFollow": false,
+        "tagTitle": "Pulseira",
+        "text": "Pulseira"
       }
     }
   },
@@ -977,6 +1713,12 @@
       "src": "/arquivos/banner-menu.png"
     }
   },
+
+
+
+
+
+
   "menu-item#terco-dezena": {
     "props": {
       "id": "menu-item-terco-dezena",
@@ -985,13 +1727,176 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/terco",
+        "href": "/terco-dezena",
         "noFollow": false,
-        "tagTitle": "Terço e Dezena",
-        "text": "Terço e Dezena"
+        "tagTitle": "Terço / Dezena",
+        "text": "Terço / Dezena"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#terco-dezena"
+    ]
+  },
+  "vtex.menu@2.x:submenu#terco-dezena": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#terco-dezena"
+    ]
+  },
+  "vtex.menu@2.x:menu#terco-dezena": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#terco-dezena"
+    ]
+  },
+  "flex-layout.row#terco-dezena":{
+    "children": [
+      "flex-layout.col#terco-dezena1"
+    ]
+  },
+  "flex-layout.col#terco-dezena1":{
+    "children": [
+      "rich-text#terco-dezena",
+      "menu-item#terco-dezena-dezena",
+      "menu-item#terco-dezena-dezenaparacarro",
+      "menu-item#terco-dezena-infantil",
+      "menu-item#terco-dezena-rosario",
+      "menu-item#terco-dezena-terco",
+      "menu-item#terco-dezena-tercodenoiva",
+      "menu-item#ver-todos-terco-dezena"
+    ]
+  },
+  "flex-layout.col#terco-dezena2":{
+    "children": [
+      "image#terco-dezena"
+    ]
+  },
+  "rich-text#terco-dezena": {
+    "props": {
+      "text": "TERÇO / DEZENA",
+      "blockClass": "title-menu"
+    }
+  },
+  "menu-item#terco-dezena-dezena": {
+    "props": {
+      "id": "menu-item-terco-dezena-dezena",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-dezena/dezena/",
+        "noFollow": false,
+        "tagTitle": "Dezena",
+        "text": "Dezena"
       }
     }
   },
+  "menu-item#terco-dezena-dezenaparacarro": {
+    "props": {
+      "id": "menu-item-terco-dezena-dezenaparacarro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-dezena/dezena-para-carro/",
+        "noFollow": false,
+        "tagTitle": "Dezena para Carro",
+        "text": "Dezena para Carro"
+      }
+    }
+  },
+  "menu-item#terco-dezena-infantil": {
+    "props": {
+      "id": "menu-item-terco-dezena-infantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-dezena/infantil/",
+        "noFollow": false,
+        "tagTitle": "Infantil",
+        "text": "Infantil"
+      }
+    }
+  },
+  "menu-item#terco-dezena-rosario": {
+    "props": {
+      "id": "menu-item-terco-dezena-rosario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-dezena/rosario/",
+        "noFollow": false,
+        "tagTitle": "Rosário",
+        "text": "Rosário"
+      }
+    }
+  },
+  "menu-item#terco-dezena-terco": {
+    "props": {
+      "id": "menu-item-terco-dezena-terco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-dezena/terco/",
+        "noFollow": false,
+        "tagTitle": "Terço",
+        "text": "Terço"
+      }
+    }
+  },
+  "menu-item#terco-dezena-tercodenoiva": {
+    "props": {
+      "id": "menu-item-terco-dezena-tercodenoiva",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-dezena/terco-de-noiva/",
+        "noFollow": false,
+        "tagTitle": "Terço de Noiva",
+        "text": "Terço de Noiva"
+      }
+    }
+  },
+  "menu-item#ver-todos-terco-dezena":{
+    "props": {
+      "blockClass":"menu-ver-todos",
+      "id": "menu-item-ver-todos-terco-dezena",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terco-dezena",
+        "noFollow": false,
+        "tagTitle": "Ver todos os Terços e Dezenas",
+        "text": "Ver todos os Terços e Dezenas"
+      }
+    }
+  },
+  "image#terco-dezena":{
+    "props": {
+      "src": "/arquivos/banner-menu.png"
+    }
+  },
+
+
+
+
+
   "menu-item#livraria-papelaria": {
     "props": {
       "id": "menu-item-livraria-papelaria",
@@ -1000,13 +1905,259 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/livraria",
+        "href": "/livraria-papelaria",
         "noFollow": false,
         "tagTitle": "Livraria e Papelaria",
         "text": "Livraria e Papelaria"
       }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#livraria-papelaria"
+    ]
+  },
+  "vtex.menu@2.x:submenu#livraria-papelaria": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#livraria-papelaria"
+    ]
+  },
+  "vtex.menu@2.x:menu#livraria-papelaria": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#livraria-papelaria"
+    ]
+  },
+  "flex-layout.row#livraria-papelaria":{
+    "children": [
+      "flex-layout.col#livraria-papelaria1"
+    ]
+  },
+  "flex-layout.col#livraria-papelaria1":{
+    "children": [
+      "rich-text#livraria-papelaria",
+      "menu-item#livraria-papelaria-biblia",
+      "menu-item#livraria-papelaria-bibliainfantil",
+      "menu-item#livraria-papelaria-caderno",
+      "menu-item#livraria-papelaria-cartaooracao",
+      "menu-item#livraria-papelaria-devocionario",
+      "menu-item#livraria-papelaria-diario",
+      "menu-item#livraria-papelaria-diversos",
+      "menu-item#livraria-papelaria-livretonovena",
+      "menu-item#livraria-papelaria-livro",
+      "menu-item#livraria-papelaria-livroinfantil",
+      "menu-item#livraria-papelaria-marcapagina",
+      "menu-item#ver-todos-livraria-papelaria"
+    ]
+  },
+  "flex-layout.col#livraria-papelaria2":{
+    "children": [
+      "image#livraria-papelaria"
+    ]
+  },
+  "rich-text#livraria-papelaria": {
+    "props": {
+      "text": "Livraria / Papelaria",
+      "blockClass": "title-menu"
     }
   },
+  "menu-item#livraria-papelaria-biblia": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-biblia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/biblia/",
+        "noFollow": false,
+        "tagTitle": "Bíblia",
+        "text": "Bíblia"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria-bibliainfantil": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-bibliainfantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/biblia-infantil/",
+        "noFollow": false,
+        "tagTitle": "Bíblia Infantil",
+        "text": "Bíblia Infantil"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria-caderno": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-caderno",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/caderno/",
+        "noFollow": false,
+        "tagTitle": "Caderno",
+        "text": "Caderno"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria-cartaooracao": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-cartaooracao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/cartao---oracao/",
+        "noFollow": false,
+        "tagTitle": "Cartão / Oração",
+        "text": "Cartão / Oração"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria-devocionario": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-devocionario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/devocionario/",
+        "noFollow": false,
+        "tagTitle": "Devocionário",
+        "text": "Devocionário"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria-diario": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-diario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/diario/",
+        "noFollow": false,
+        "tagTitle": "Diário",
+        "text": "Diário"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria-diversos": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-diversos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/diversos/",
+        "noFollow": false,
+        "tagTitle": "Diversos",
+        "text": "Diversos"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria-livretonovena": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-livretonovena",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/livreto---novena/",
+        "noFollow": false,
+        "tagTitle": "Livreto / Novena",
+        "text": "Livreto / Novena"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria-livro": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-livro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/livro/",
+        "noFollow": false,
+        "tagTitle": "Livro",
+        "text": "Livro"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria-livroinfantil": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-livroinfantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/livro-infantil/",
+        "noFollow": false,
+        "tagTitle": "Livro Infantil",
+        "text": "Livro Infantil"
+      }
+    }
+  },
+  "menu-item#livraria-papelaria-marcapagina": {
+    "props": {
+      "id": "menu-item-livraria-papelaria-marcapagina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria/marca-pagina/",
+        "noFollow": false,
+        "tagTitle": "Marca Página",
+        "text": "Marca Página"
+      }
+    }
+  },
+  "menu-item#ver-todos-livraria-papelaria":{
+    "props": {
+      "blockClass":"menu-ver-todos",
+      "id": "menu-item-ver-todos-livraria-papelaria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/livraria-papelaria",
+        "noFollow": false,
+        "tagTitle": "Ver todos os Acessórios",
+        "text": "Ver todos os Acessórios"
+      }
+    }
+  },
+  "image#livraria-papelaria":{
+    "props": {
+      "src": "/arquivos/banner-menu.png"
+    }
+  },
+
+
+
+
+
+
+
+
   "menu-item#vestuario": {
     "props": {
       "id": "menu-item-vestuario",
@@ -1020,53 +2171,777 @@
         "tagTitle": "Vestuário",
         "text": "Vestuário"
       }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#vestuario"
+    ]
+  },
+  "vtex.menu@2.x:submenu#vestuario": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#vestuario"
+    ]
+  },
+  "vtex.menu@2.x:menu#vestuario": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#vestuario"
+    ]
+  },
+  "flex-layout.row#vestuario":{
+    "children": [
+      "flex-layout.col#vestuario1"
+    ]
+  },
+  "flex-layout.col#vestuario1":{
+    "children": [
+      "rich-text#vestuario",
+      "menu-item#vestuario-masculino",
+      "menu-item#vestuario-feminino",
+      "menu-item#vestuario-infantil",
+      "menu-item#vestuario-unissex",
+      "menu-item#ver-todos-vestuario"
+    ]
+  },
+  "flex-layout.col#vestuario2":{
+    "children": [
+      "image#vestuario"
+    ]
+  },
+  "rich-text#vestuario": {
+    "props": {
+      "text": "Vestuário",
+      "blockClass": "title-menu"
     }
   },
+  "menu-item#vestuario-feminino": {
+    "props": {
+      "id": "menu-item-vestuario-feminino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/feminino/",
+        "noFollow": false,
+        "tagTitle": "Feminino",
+        "text": "Feminino"
+      }
+    }
+  },
+  "menu-item#vestuario-masculino": {
+    "props": {
+      "id": "menu-item-vestuario-masculino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/masculino/",
+        "noFollow": false,
+        "tagTitle": "Masculino",
+        "text": "Masculino"
+      }
+    }
+  },
+  "menu-item#vestuario-infantil": {
+    "props": {
+      "id": "menu-item-vestuario-infantil",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/infantil/",
+        "noFollow": false,
+        "tagTitle": "Infantil",
+        "text": "Infantil"
+      }
+    }
+  },
+  "menu-item#vestuario-unissex": {
+    "props": {
+      "id": "menu-item-vestuario-unissex",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario/unissex/",
+        "noFollow": false,
+        "tagTitle": "Unissex",
+        "text": "Unissex"
+      }
+    }
+  },
+  "menu-item#ver-todos-vestuario":{
+    "props": {
+      "blockClass":"menu-ver-todos",
+      "id": "menu-item-ver-todos-vestuario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vestuario",
+        "noFollow": false,
+        "tagTitle": "Ver todo Vestuário",
+        "text": "Ver todo Vestuário"
+      }
+    }
+  },
+  "image#vestuario":{
+    "props": {
+      "src": "/arquivos/banner-menu.png"
+    }
+  },
+
+
+
+
+
+
   "menu-item#presente-decoracao": {
-    "props": {
-      "id": "menu-item-presente-decoracao",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/presente-decoracao",
-        "noFollow": false,
-        "tagTitle": "Presente e Decoração",
-        "text": "Presente e Decoração"
+      "props": {
+        "id": "menu-item-presente-decoracao",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao",
+          "noFollow": false,
+          "tagTitle": "Presente e Decoração",
+          "text": "Presente e Decoração"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#presente-decoracao"
+      ]
+    },
+    "vtex.menu@2.x:submenu#presente-decoracao": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#presente-decoracao"
+      ]
+    },
+    "vtex.menu@2.x:menu#presente-decoracao": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "flex-layout.row#presente-decoracao"
+      ]
+    },
+    "flex-layout.row#presente-decoracao":{
+      "children": [
+        "flex-layout.col#presente-decoracao1"
+      ]
+    },
+    "flex-layout.col#presente-decoracao1":{
+      "children": [
+        "rich-text#presente-decoracao",
+        "menu-item#presente-decoracao-adorno",
+        "menu-item#presente-decoracao-almofada",
+        "menu-item#presente-decoracao-brinquedo",
+        "menu-item#presente-decoracao-caneca",
+        "menu-item#presente-decoracao-capela",
+        "menu-item#presente-decoracao-chaveiro",
+        "menu-item#presente-decoracao-crucifixo",
+        "menu-item#presente-decoracao-diversos",
+        "menu-item#presente-decoracao-ima",
+        "menu-item#presente-decoracao-incensoincensario",
+        "menu-item#presente-decoracao-oracaodemesa",
+        "menu-item#presente-decoracao-portabiblia",
+        "menu-item#presente-decoracao-portachave",
+        "menu-item#presente-decoracao-quadro",
+        "menu-item#presente-decoracao-tercodezenarosariodeparede",
+        "menu-item#presente-decoracao-vela",
+        "menu-item#ver-todos-presente-decoracao"
+      ]
+    },
+    "flex-layout.col#presente-decoracao2":{
+      "children": [
+        "image#presente-decoracao"
+      ]
+    },
+    "rich-text#presente-decoracao": {
+      "props": {
+        "text": "Presente e Decoração",
+        "blockClass": "title-menu"
       }
-    }
-  },
-  "menu-item#imagens": {
-    "props": {
-      "id": "menu-item-imagens",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/imagens",
-        "noFollow": false,
-        "tagTitle": "Imagens",
-        "text": "Imagens"
+    },
+    "menu-item#presente-decoracao-adorno": {
+      "props": {
+        "id": "menu-item-presente-decoracao-adorno",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/adorno/",
+          "noFollow": false,
+          "tagTitle": "Adorno",
+          "text": "Adorno"
+        }
       }
-    }
-  },
-  "menu-item#cd-dvd": {
-    "props": {
-      "id": "menu-item-cd-dvd",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/cd-dvd",
-        "noFollow": false,
-        "tagTitle": "CD e DVD",
-        "text": "CD e DVD"
+    },
+    "menu-item#presente-decoracao-almofada": {
+      "props": {
+        "id": "menu-item-presente-decoracao-almofada",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/almofada/",
+          "noFollow": false,
+          "tagTitle": "Almofada",
+          "text": "Almofada"
+        }
       }
-    }
-  },
+    },
+    "menu-item#presente-decoracao-brinquedo": {
+      "props": {
+        "id": "menu-item-presente-decoracao-brinquedo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/brinquedo/",
+          "noFollow": false,
+          "tagTitle": "Brinquedo",
+          "text": "Brinquedo"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-caneca": {
+      "props": {
+        "id": "menu-item-presente-decoracao-caneca",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/caneca/",
+          "noFollow": false,
+          "tagTitle": "Caneca",
+          "text": "Caneca"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-capela": {
+      "props": {
+        "id": "menu-item-presente-decoracao-capela",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/capela/",
+          "noFollow": false,
+          "tagTitle": "Capela",
+          "text": "Capela"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-chaveiro": {
+      "props": {
+        "id": "menu-item-presente-decoracao-chaveiro",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/chaveiro/",
+          "noFollow": false,
+          "tagTitle": "Chaveiro",
+          "text": "Chaveiro"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-crucifixo": {
+      "props": {
+        "id": "menu-item-presente-decoracao-crucifixo",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/crucifixo/",
+          "noFollow": false,
+          "tagTitle": "Crucifixo",
+          "text": "Crucifixo"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-diversos": {
+      "props": {
+        "id": "menu-item-presente-decoracao-diversos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/diversos/",
+          "noFollow": false,
+          "tagTitle": "Diversos",
+          "text": "Diversos"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-ima": {
+      "props": {
+        "id": "menu-item-presente-decoracao-ima",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/ima/",
+          "noFollow": false,
+          "tagTitle": "Imã",
+          "text": "Imã"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-incensoincensario": {
+      "props": {
+        "id": "menu-item-presente-decoracao-incensoincensario",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/incenso---incensario/",
+          "noFollow": false,
+          "tagTitle": "Incenso / Incensário",
+          "text": "Incenso / Incensário"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-oracaodemesa": {
+      "props": {
+        "id": "menu-item-presente-decoracao-oracaodemesa",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/oracao-de-mesa/",
+          "noFollow": false,
+          "tagTitle": "Oração de mesa",
+          "text": "Oração de mesa"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-portabiblia": {
+      "props": {
+        "id": "menu-item-presente-decoracao-portabiblia",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/porta-biblia/",
+          "noFollow": false,
+          "tagTitle": "Porta Bíblia",
+          "text": "Porta Bíblia"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-portachave": {
+      "props": {
+        "id": "menu-item-presente-decoracao-portachave",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/porta-chave/",
+          "noFollow": false,
+          "tagTitle": "Porta Chave",
+          "text": "Porta Chave"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-quadro": {
+      "props": {
+        "id": "menu-item-presente-decoracao-quadro",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/quadro/",
+          "noFollow": false,
+          "tagTitle": "Quadro",
+          "text": "Quadro"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-tercodezenarosariodeparede": {
+      "props": {
+        "id": "menu-item-presente-decoracao-tercodezenarosariodeparede",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/terco---dezena---rosario-de-parede/",
+          "noFollow": false,
+          "tagTitle": "Terço / Dezena / Rosário de Parede",
+          "text": "Terço / Dezena / Rosário de Parede"
+        }
+      }
+    },
+    "menu-item#presente-decoracao-vela": {
+      "props": {
+        "id": "menu-item-presente-decoracao-vela",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao/vela/",
+          "noFollow": false,
+          "tagTitle": "Vela",
+          "text": "Vela"
+        }
+      }
+    },
+    "menu-item#ver-todos-presente-decoracao":{
+      "props": {
+        "blockClass":"menu-ver-todos",
+        "id": "menu-item-ver-todos-presente-decoracao",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/presente-decoracao",
+          "noFollow": false,
+          "tagTitle": "Ver todos os Acessórios",
+          "text": "Ver todos os Acessórios"
+        }
+      }
+    },
+    "image#presente-decoracao":{
+      "props": {
+        "src": "/arquivos/banner-menu.png"
+      }
+    },
+
+
+
+
+
+
+
+
+    "menu-item#imagens": {
+      "props": {
+        "id": "menu-item-imagens",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/imagens",
+          "noFollow": false,
+          "tagTitle": "Imagens",
+          "text": "Imagens"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#imagens"
+      ]
+    },
+    "vtex.menu@2.x:submenu#imagens": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#imagens"
+      ]
+    },
+    "vtex.menu@2.x:menu#imagens": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "flex-layout.row#imagens"
+      ]
+    },
+    "flex-layout.row#imagens":{
+      "children": [
+        "flex-layout.col#imagens1"
+      ]
+    },
+    "flex-layout.col#imagens1":{
+      "children": [
+        "rich-text#imagens",
+        "menu-item#imagens-ate10cm",
+        "menu-item#imagens-de11a15cm",
+        "menu-item#imagens-de16a24cm",
+        "menu-item#imagens-de25a30cm",
+        "menu-item#imagens-acimade30cm",
+        "menu-item#imagens-presepio",
+        "menu-item#ver-todos-imagens"
+      ]
+    },
+    "flex-layout.col#imagens2":{
+      "children": [
+        "image#imagens"
+      ]
+    },
+    "rich-text#imagens": {
+      "props": {
+        "text": "Imagens",
+        "blockClass": "title-menu"
+      }
+    },
+    "menu-item#imagens-ate10cm": {
+      "props": {
+        "id": "menu-item-imagens-ate10cm",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/imagens/ate-10cm/",
+          "noFollow": false,
+          "tagTitle": "Até 10cm",
+          "text": "Até 10cm"
+        }
+      }
+    },
+    "menu-item#imagens-de11a15cm": {
+      "props": {
+        "id": "menu-item-imagens-de11a15cm",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/imagens/de-11-a-15cm/",
+          "noFollow": false,
+          "tagTitle": "De 11 a 15cm",
+          "text": "De 11 a 15cm"
+        }
+      }
+    },
+    "menu-item#imagens-de16a24cm": {
+      "props": {
+        "id": "menu-item-imagens-de16a24cm",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/imagens/de-16-a-24cm/",
+          "noFollow": false,
+          "tagTitle": "de-16-a-24cm",
+          "text": "de-16-a-24cm"
+        }
+      }
+    },
+    "menu-item#imagens-de25a30cm": {
+      "props": {
+        "id": "menu-item-imagens-de25a30cm",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/imagens/de-25-a-30cm/",
+          "noFollow": false,
+          "tagTitle": "De 25 a 30cm",
+          "text": "De 25 a 30cm"
+        }
+      }
+    },
+    "menu-item#imagens-acimade30cm": {
+      "props": {
+        "id": "menu-item-imagens-acimade30cm",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/imagens/acima-de-30cm/",
+          "noFollow": false,
+          "tagTitle": "Acima de 30cm",
+          "text": "Acima de 30cm"
+        }
+      }
+    },
+    "menu-item#imagens-presepio": {
+      "props": {
+        "id": "menu-item-imagens-presepio",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/imagens/presepio/",
+          "noFollow": false,
+          "tagTitle": "Presépio",
+          "text": "Presépio"
+        }
+      }
+    },
+    "menu-item#ver-todos-imagens":{
+      "props": {
+        "blockClass":"menu-ver-todos",
+        "id": "menu-item-ver-todos-imagens",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/imagens",
+          "noFollow": false,
+          "tagTitle": "Ver todas as Imagens",
+          "text": "Ver todas as Imagens"
+        }
+      }
+    },
+    "image#imagens":{
+      "props": {
+        "src": "/arquivos/banner-menu.png"
+      }
+    },
+
+
+
+
+
+
+
+
+    "menu-item#cd-dvd": {
+      "props": {
+        "id": "menu-item-cd-dvd",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cd-dvd",
+          "noFollow": false,
+          "tagTitle": "CD e DVD",
+          "text": "CD e DVD"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#cd-dvd"
+      ]
+    },
+    "vtex.menu@2.x:submenu#cd-dvd": {
+      "props": {
+        "width": "auto"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#cd-dvd"
+      ]
+    },
+    "vtex.menu@2.x:menu#cd-dvd": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "flex-layout.row#cd-dvd"
+      ]
+    },
+    "flex-layout.row#cd-dvd":{
+      "children": [
+        "flex-layout.col#cd-dvd1"
+      ]
+    },
+    "flex-layout.col#cd-dvd1":{
+      "children": [
+        "rich-text#cd-dvd",
+        "menu-item#cd-dvd-cd",
+        "menu-item#cd-dvd-dvd",
+        "menu-item#ver-todos-cd-dvd"
+      ]
+    },
+    "flex-layout.col#cd-dvd2":{
+      "children": [
+        "image#cd-dvd"
+      ]
+    },
+    "rich-text#cd-dvd": {
+      "props": {
+        "text": "ACESSÓRIOS",
+        "blockClass": "title-menu"
+      }
+    },
+    "menu-item#cd-dvd-cd": {
+      "props": {
+        "id": "menu-item-cd-dvd-cd",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cd-dvd/cd/",
+          "noFollow": false,
+          "tagTitle": "CD",
+          "text": "CD"
+        }
+      }
+    },
+    "menu-item#cd-dvd-dvd": {
+      "props": {
+        "id": "menu-item-cd-dvd-dvd",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cd-dvd/dvd/",
+          "noFollow": false,
+          "tagTitle": "DVD",
+          "text": "DVD"
+        }
+      }
+    },
+    "menu-item#ver-todos-cd-dvd":{
+      "props": {
+        "blockClass":"menu-ver-todos",
+        "id": "menu-item-ver-todos-cd-dvd",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/cd-dvd",
+          "noFollow": false,
+          "tagTitle": "Ver todos CD e DVD",
+          "text": "Ver todos CD e DVD"
+        }
+      }
+    },
+    "image#cd-dvd":{
+      "props": {
+        "src": "/arquivos/banner-menu.png"
+      }
+    },
+
+
+
+
+
+
   "menu-item#outlet": {
     "props": {
       "id": "menu-item-outlet",
